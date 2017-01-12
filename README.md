@@ -1,4 +1,4 @@
-# Connect to a GP service
+# Page per GP prototypes
 Design prototypes for one page per GP feature.
 
 Note this is prototype code. Not intended for production use.

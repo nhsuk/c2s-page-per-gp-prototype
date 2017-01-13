@@ -8,11 +8,14 @@
   Kenyon Medical Centres
 {% endblock pageTitle %}
 
+{% block googleMap %}
+  {% include '_includes/accepting-patients.html' %}
+  {% include '_includes/location-map.html' %}
+{% endblock googleMap %}
+
 <!-- Main content here -->
 {% block content %}
 
-  {% include '_includes/accepting-patients.html' %}
-  {% include '_includes/location-map.html' %}
   {% include '_includes/practice-location.html' %}
   {% include '_includes/practice-contact-details.html' %}
   <hr style="margin:16px 0;" />

@@ -27,6 +27,12 @@
 
       <!-- Page content goes here -->
       <div class="grid-row">
+        <div class="grid-3-3">
+        {% block googleMap %}{% endblock googleMap %}
+        </div>
+      </div>
+
+      <div class="grid-row">
         <div class="grid-2-3">
         {% block content %}{% endblock %}
         </div>

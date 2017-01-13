@@ -1005,6 +1005,21 @@ textarea:focus {
   background-color: #eff9e9;
 }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .attention {
   border: 12px solid #40add7;
   padding: 32px;

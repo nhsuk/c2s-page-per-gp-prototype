@@ -9,21 +9,19 @@
 {% endblock pageTitle %}
 
 {% block googleMap %}
-  {% include '_includes/accepting-patients.html' %}
+  {% include '_includes/practice-location.html' %}
   {% include '_includes/location-map.html' %}
 {% endblock googleMap %}
 
 <!-- Main content here -->
 {% block content %}
 
-  {% include '_includes/practice-location.html' %}
-  <hr style="margin:16px 0;" />
+
   {% include '_includes/online-services.html' %}
-  <hr style="margin:16px 0;" />
   {% include '_includes/practice-contact-details.html' %}
   <hr style="margin:16px 0;" />
-  {% include '_includes/practice-facilities.html' %}
   {% include '_includes/registered-patients.html' %}
+  {% include '_includes/accepting-patients.html' %}
   <hr style="margin:16px 0;" />
   {% include '_includes/opening-times.html' %}
   {% include '_includes/gp-appointment-times.html' %}
@@ -33,8 +31,11 @@
   {% include '_includes/staff.html' %}
   <hr style="margin:32px 0 24px 0;" />
   {% include '_includes/services-clinics.html' %}
+  {% include '_includes/practice-facilities.html' %}
   <hr style="margin:32px 0 24px 0;" />
   {% include '_includes/parking.html' %}
+  <hr style="margin:32px 0 24px 0;" />
+  {% include '_includes/additional-languages.html' %}
 
   <!-- <section class="muted">
     <h3>Make an appointment</h3>

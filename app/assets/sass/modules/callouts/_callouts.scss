@@ -12,6 +12,14 @@
   margin: $leading*2 0;
 }
 
+.callout--info {
+  background-color: #eff1f2;
+  border: solid #768692;
+  border-width: 0 0 0 4px;
+  padding: $leading;
+  margin: $leading 0;
+}
+
 .callout p {
   padding: 0;
   margin: 0;

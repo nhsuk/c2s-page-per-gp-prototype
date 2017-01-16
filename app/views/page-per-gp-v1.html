@@ -5,7 +5,7 @@
 {% endblock page_title %}
 
 {% block pageTitle %}
-  Kenyon Medical Centres
+  Kenyon Medical Centre: Brandon Road
 {% endblock pageTitle %}
 
 {% block googleMap %}
@@ -17,12 +17,17 @@
 {% block content %}
 
   {% include '_includes/practice-location.html' %}
+  <hr style="margin:16px 0;" />
+  {% include '_includes/online-services.html' %}
+  <hr style="margin:16px 0;" />
   {% include '_includes/practice-contact-details.html' %}
+  <hr style="margin:16px 0;" />
+  {% include '_includes/practice-facilities.html' %}
+  {% include '_includes/registered-patients.html' %}
   <hr style="margin:16px 0;" />
   {% include '_includes/opening-times.html' %}
   {% include '_includes/gp-appointment-times.html' %}
   <hr style="margin:16px 0;" />
-  {% include '_includes/registered-patients.html' %}
   {% include '_includes/statistics.html' %}
   <hr style="margin:32px 0;" />
   {% include '_includes/staff.html' %}

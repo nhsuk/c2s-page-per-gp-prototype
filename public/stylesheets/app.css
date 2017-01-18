@@ -1020,6 +1020,26 @@ textarea:focus {
   height: 100% !important;
 }
 
+.online-services-desktop {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .online-services-desktop {
+    display: block;
+  }
+}
+
+.online-services-mobile {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .online-services-mobile {
+    display: none;
+  }
+}
+
 .attention {
   border: 12px solid #40add7;
   padding: 32px;

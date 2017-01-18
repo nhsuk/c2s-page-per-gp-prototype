@@ -1,4 +1,4 @@
-{% extends '_layouts/layout_2-3_no_title_block.html' %}
+{% extends '_layouts/layout_2-3_1-3.html' %}
 
 {% block page_title %}
   Page per GP - NHS.UK
@@ -8,32 +8,26 @@
   Kenyon Medical Centre: Brandon Road
 {% endblock pageTitle %}
 
-{% block googleMap %}
-  {% include '_includes/practice-location.html' %}
-  {% include '_includes/location-map.html' %}
-{% endblock googleMap %}
-
 <!-- Main content here -->
 {% block content %}
-
-
-  {% include '_includes/online-services.html' %}
-  {% include '_includes/practice-contact-details.html' %}
-  <hr style="margin:16px 0;" />
-  {% include '_includes/registered-patients.html' %}
   {% include '_includes/accepting-patients.html' %}
+  {% include '_includes/location.html' %}
+  {% include '_includes/contact-details.html' %}
+  {% include '_includes/location-map.html' %}
   <hr style="margin:16px 0;" />
+  {% include '_includes/online-services-mobile.html' %}
+  {% include '_includes/what-patients-say.html' %}
+  <hr style="margin:32px 0;" />
   {% include '_includes/opening-times.html' %}
   {% include '_includes/gp-appointment-times.html' %}
   <hr style="margin:16px 0;" />
-  {% include '_includes/statistics.html' %}
-  <hr style="margin:32px 0;" />
-  {% include '_includes/staff.html' %}
+  {% include '_includes/registered-patients.html' %}
+  <hr style="margin:16px 0;" />
+  {% include '_includes/gps-at-this-surgery.html' %}
   <hr style="margin:32px 0 24px 0;" />
   {% include '_includes/services-clinics.html' %}
-  {% include '_includes/practice-facilities.html' %}
   <hr style="margin:32px 0 24px 0;" />
-  {% include '_includes/parking.html' %}
+  {% include '_includes/facilities.html' %}
   <hr style="margin:32px 0 24px 0;" />
   {% include '_includes/additional-languages.html' %}
 
@@ -43,3 +37,7 @@
     <p><a href="book-an-appointment-online" class="button">Continue</a>
   </section> -->
 {% endblock content %}
+
+{% block rightColumn %}
+    {% include '_includes/online-services-desktop.html' %}
+{% endblock rightColumn %}}

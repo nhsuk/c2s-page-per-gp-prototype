@@ -1005,19 +1005,37 @@ textarea:focus {
   background-color: #eff9e9;
 }
 
-.google-maps {
+.overlay {
+  background: transparent;
   position: relative;
-  padding-bottom: 45%;
-  height: 0;
-  overflow: hidden;
+  width: 100%;
+  /* your iframe width */
+  height: 480px;
+  /* your iframe height */
+  top: 480px;
+  /* your iframe height */
+  margin-top: -480px;
+  /* your iframe height */
 }
 
-.google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+.online-services-desktop {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .online-services-desktop {
+    display: block;
+  }
+}
+
+.online-services-mobile {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .online-services-mobile {
+    display: none;
+  }
 }
 
 .attention {
@@ -1031,6 +1049,14 @@ textarea:focus {
   border-width: 4px 0;
   padding: 32px;
   margin: 32px 0;
+}
+
+.callout--info {
+  background-color: #eff1f2;
+  border: solid #768692;
+  border-width: 0 0 0 4px;
+  padding: 16px;
+  margin: 16px 0;
 }
 
 .callout p {

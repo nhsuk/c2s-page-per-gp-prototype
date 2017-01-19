@@ -1005,19 +1005,17 @@ textarea:focus {
   background-color: #eff9e9;
 }
 
-.google-maps {
+.overlay {
+  background: transparent;
   position: relative;
-  padding-bottom: 56.26%;
-  height: 0;
-  overflow: hidden;
-}
-
-.google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  /* your iframe width */
+  height: 480px;
+  /* your iframe height */
+  top: 480px;
+  /* your iframe height */
+  margin-top: -480px;
+  /* your iframe height */
 }
 
 .online-services-desktop {

@@ -20,6 +20,12 @@
   margin: $leading 0;
 }
 
+.callout--attention {
+  background-color: transparent;
+  border: 12px solid #40add7;
+  padding: $leading;
+}
+
 .callout p {
   padding: 0;
   margin: 0;
@@ -39,8 +45,6 @@
 
 }
 
-
-
 .severe {
   border-top: 12px solid #d81e05;
   background-color: #fbe8e6;
@@ -52,7 +56,6 @@
   background-color: #768692;
 }
 
-.callout--accepting-patients {
-  background-color: lighten(#0072C6, 55%);
-  border-left: solid #0072C6;
+.callout--on-dark {
+  color: $black;
 }

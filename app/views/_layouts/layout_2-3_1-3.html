@@ -14,31 +14,33 @@
     {% include '_includes/service-alert.html' %}
     {% include '_includes/masthead.html' %}
 
+
+    <!-- Page header goes here -->
+    <div class="header-panel">
+      <div class="header-panel__content">
+        <div class="grid-row">
+          <div class="grid-3-3">
+            <h1 class="heading--h2__beta" style="margin-bottom: 0;">{% block pageTitle %}{% endblock %}</h1>
+          </div>
+          <div class="grid-1-2">
+            {% block leftHalf %}{% endblock leftHalf %}
+          </div>
+          <div class="grid-1-2">
+            {% block rightHalf %}{% endblock rightHalf %}
+          </div>
+          <div class="grid-2-3">
+            {% block acceptingPatients %}{% endblock acceptingPatients %}
+          </div>
+        </div>
+      </div>
+    </div>
+
     <main id="content" role="main" class="content">
-
-      <!-- Accepting new patients goes here -->
-      <div class="grid-row">
-        <div class="grid-3-3">
-          {% block newPatients %}{% endblock newPatients %}
-        </div>
-      </div>
-
-      <!-- Page header goes here -->
-      <div class="grid-row">
-        <div class="grid-3-3">
-          <h1 style="font-weight:bold;">
-            {% block pageTitle %}{% endblock pageTitle %}
-          </h1>
-        </div>
-      </div>
 
       <!-- Page content goes here -->
       <div class="grid-row">
         <div class="grid-2-3">
         {% block content %}{% endblock %}
-        </div>
-        <div class="grid-1-3">
-          {% block rightColumn %}{% endblock rightColumn %}
         </div>
       </div>
     </main>

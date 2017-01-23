@@ -12,6 +12,6 @@
   display: block;
 
   @include media(640px) {
-    display: none;
+    display: block;
   }
 }

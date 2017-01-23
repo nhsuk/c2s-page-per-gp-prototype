@@ -114,6 +114,12 @@ h6 a {
   text-decoration: none;
 }
 
+.heading--h2__beta {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
 p {
   margin: 32px 0 32px 0;
 }
@@ -165,6 +171,10 @@ a:focus {
   -webkit-box-shadow: 0 0 0 5px #F7E214;
   -moz-box-shadow: 0 0 0 5px #F7E214;
   box-shadow: 0 0 0 5px #F7E214;
+}
+
+.link--reverse-polarity {
+  color: white !important;
 }
 
 body, pre.user-input {
@@ -959,11 +969,22 @@ textarea:focus {
 .header-panel {
   color: #fff;
   background-color: #0072c6;
-  padding-top: 48px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  margin-bottom: 32px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+}
+
+@media (min-width: 980px) {
+  .header-panel {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    margin-top: 32px;
+    max-width: 900px;
+  }
 }
 
 .header-panel .header {
@@ -974,10 +995,16 @@ textarea:focus {
   width: 130px;
   height: 4px;
   background-color: #338ed1;
+  margin-bottom: 32px;
 }
 
 .header-panel .precis {
   font-weight: 200;
+}
+
+.header-panel__content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .signage {
@@ -1034,7 +1061,7 @@ textarea:focus {
 
 @media (min-width: 640px) {
   .online-services-mobile {
-    display: none;
+    display: block;
   }
 }
 
@@ -1057,6 +1084,12 @@ textarea:focus {
   border-width: 0 0 0 4px;
   padding: 16px;
   margin: 16px 0;
+}
+
+.callout--attention {
+  background-color: transparent;
+  border: 12px solid #40add7;
+  padding: 16px;
 }
 
 .callout p {
@@ -1087,7 +1120,6 @@ textarea:focus {
   background-color: #768692;
 }
 
-.callout--accepting-patients {
-  background-color: #e0f2ff;
-  border-left: solid #0072C6;
+.callout--on-dark {
+  color: #231f20;
 }

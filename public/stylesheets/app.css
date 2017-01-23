@@ -1086,3 +1086,8 @@ textarea:focus {
 .severe hr {
   background-color: #768692;
 }
+
+.callout--accepting-patients {
+  background-color: #e0f2ff;
+  border-left: solid #0072C6;
+}

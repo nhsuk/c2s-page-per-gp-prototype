@@ -13,8 +13,16 @@
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
     {% include '_includes/service-alert.html' %}
     {% include '_includes/masthead.html' %}
-    
+
     <main id="content" role="main" class="content">
+
+      <!-- Accepting new patients goes here -->
+      <div class="grid-row">
+        <div class="grid-3-3">
+          {% block newPatients %}{% endblock newPatients %}
+        </div>
+      </div>
+
       <!-- Page header goes here -->
       <div class="grid-row">
         <div class="grid-3-3">

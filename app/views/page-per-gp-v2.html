@@ -1,0 +1,39 @@
+{% extends '_layouts/layout_2-3_1-3.html' %}
+
+{% block page_title %}
+  Page per GP - NHS.UK
+{% endblock page_title %}
+
+{% block newPatients %}
+
+{% endblock newPatients %}
+
+{% block pageTitle %}
+  Kenyon Medical Centre: Brandon Road
+{% endblock pageTitle %}
+
+<!-- Main content here -->
+{% block content %}
+  {% include '_includes/v2/accepting-patients.html' %}
+  {% include '_includes/v2/location.html' %}
+  {% include '_includes/v2/contact-details.html' %}
+  {% include '_includes/v2/online-services-mobile.html' %}
+  {% include '_includes/v2/reception-opening-times.html' %}
+  {% include '_includes/v2/gp-appointment-times.html' %}
+  <hr style="margin:32px 0;" />
+  {% include '_includes/v2/what-patients-say.html' %}
+  <hr style="margin:16px 0;" />
+  {% include '_includes/v2/registered-patients.html' %}
+  <hr style="margin:16px 0;" />
+  {% include '_includes/v2/gps-at-this-surgery.html' %}
+  <hr style="margin:32px 0 24px 0;" />
+  {% include '_includes/v2/services-clinics.html' %}
+  <hr style="margin:32px 0 24px 0;" />
+  {% include '_includes/v2/facilities.html' %}
+  <hr style="margin:32px 0 24px 0;" />
+  {% include '_includes/v2/additional-languages.html' %}
+{% endblock content %}
+
+{% block rightColumn %}
+    {% include '_includes/v2/online-services-desktop.html' %}
+{% endblock rightColumn %}

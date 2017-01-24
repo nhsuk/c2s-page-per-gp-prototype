@@ -217,7 +217,7 @@ hr {
   width: 130px;
   box-sizing: content-box;
   overflow: visible;
-  margin: 0;
+  margin: 32px 0;
   padding: 0;
 }
 
@@ -1063,6 +1063,10 @@ textarea:focus {
   .online-services-mobile {
     display: none;
   }
+}
+
+.contact-details {
+  margin-bottom: 16px;
 }
 
 .attention {

@@ -1,4 +1,4 @@
-{% extends '_layouts/layout_2-3_1-3.html' %}
+{% extends '_layouts/layout_2-3_1-3_v2.html' %}
 
 {% block page_title %}
   Page per GP - NHS.UK
@@ -16,18 +16,14 @@
   {% include '_includes/v2/contact-details.html' %}
 {% endblock %}
 
-{% block acceptingPatients %}
-  {% include '_includes/v2/accepting-patients.html' %}
-{% endblock %}
-
 <!-- Main content here -->
 {% block content %}
+  {% include '_includes/v2/accepting-patients.html' %}
   {% include '_includes/v2/online-services-mobile.html' %}
+  {% include '_includes/v2/what-patients-say.html' %}
   <hr style="margin:32px 0;" />
   {% include '_includes/v2/reception-opening-times.html' %}
   {% include '_includes/v2/gp-appointment-times.html' %}
-  <hr style="margin:32px 0;" />
-  {% include '_includes/v2/what-patients-say.html' %}
   <hr style="margin:16px 0;" />
   {% include '_includes/v2/registered-patients.html' %}
   <hr style="margin:16px 0;" />
@@ -41,5 +37,4 @@
 {% endblock content %}
 
 {% block rightColumn %}
-
 {% endblock rightColumn %}

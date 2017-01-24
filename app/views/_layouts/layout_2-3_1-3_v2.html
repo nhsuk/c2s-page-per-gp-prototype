@@ -17,22 +17,29 @@
     <main id="content" role="main" class="content">
 
       <!-- Page header goes here -->
+      <!-- <div class="header-panel">
+        <div class="header-panel__content"> -->
           <div class="grid-row">
             <div class="grid-3-3">
               <h1 style="font-weight:bold;">{% block pageTitle %}{% endblock %}</h1>
+            </div>
+            <div class="grid-1-2">
+              {% block leftHalf %}{% endblock leftHalf %}
+            </div>
+            <div class="grid-1-2">
+              {% block rightHalf %}{% endblock rightHalf %}
             </div>
             <div class="grid-2-3">
               {% block acceptingPatients %}{% endblock acceptingPatients %}
             </div>
           </div>
+        <!-- </div>
+      </div> -->
 
       <!-- Page content goes here -->
       <div class="grid-row">
         <div class="grid-2-3">
         {% block content %}{% endblock %}
-        </div>
-        <div class="grid-1-3">
-        {% block rightColumn %}{% endblock %}
         </div>
       </div>
     </main>

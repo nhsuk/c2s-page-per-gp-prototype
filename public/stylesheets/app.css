@@ -247,7 +247,7 @@ hr {
   width: 96.6%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 850px) {
   .grid-1-3 {
     width: 29.9%;
     float: left;
@@ -258,7 +258,7 @@ hr {
   width: 96.6%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 850px) {
   .grid-2-3 {
     width: 63.2666%;
     float: left;
@@ -289,7 +289,7 @@ hr {
   width: 96.6%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 850px) {
   .grid-5-12 {
     width: 38.2665%;
     float: left;
@@ -1061,7 +1061,7 @@ textarea:focus {
 
 @media (min-width: 640px) {
   .online-services-mobile {
-    display: block;
+    display: none;
   }
 }
 
@@ -1089,7 +1089,7 @@ textarea:focus {
 .callout--attention {
   background-color: transparent;
   border: 12px solid #40add7;
-  padding: 16px;
+  padding: 32px;
 }
 
 .callout p {

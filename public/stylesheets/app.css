@@ -122,6 +122,15 @@ h6 a {
 
 p {
   margin: 32px 0 32px 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: 640px) {
+  p {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 pre.user-input {
@@ -341,13 +350,14 @@ hr {
 .service-alert-inner {
   padding-bottom: 8px;
   padding-top: 8px;
-  font-size: 13.12px;
+  font-size: 14px;
 }
 
 .service-alert-inner p {
   padding: 0;
   margin: 0;
   display: table;
+  font-size: 14px;
 }
 
 .service-alert-inner span {
@@ -1098,7 +1108,7 @@ textarea:focus {
 
 .callout p {
   padding: 0;
-  margin: 0;
+  margin: 16px 0;
 }
 
 .info-panel {

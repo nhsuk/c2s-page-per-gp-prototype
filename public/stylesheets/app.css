@@ -783,7 +783,6 @@ label {
 .form-hint {
   display: block;
   clear: both;
-  margin: 16px 0 32px 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -1081,15 +1080,15 @@ textarea:focus {
 
 .attention {
   border: 12px solid #40add7;
-  padding: 32px;
+  padding: 16px;
 }
 
 .callout {
   background-color: #FFB81C;
   border: solid #cc9316;
   border-width: 4px 0;
-  padding: 32px;
-  margin: 32px 0;
+  padding: 16px;
+  margin: 16px 0;
 }
 
 .callout--info {
@@ -1103,7 +1102,7 @@ textarea:focus {
 .callout--attention {
   background-color: transparent;
   border: 12px solid #40add7;
-  padding: 32px;
+  padding: 16px;
 }
 
 .callout p {

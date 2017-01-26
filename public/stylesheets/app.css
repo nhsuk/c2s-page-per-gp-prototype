@@ -336,6 +336,16 @@ hr {
   margin-top: 64px;
 }
 
+.container {
+  margin: 32px 0 !important;
+}
+
+@media (min-width: 640px) {
+  .container {
+    margin: 48px 0 !important;
+  }
+}
+
 .service-alert {
   background-color: #FFB81C;
   color: #00365D;
@@ -1089,6 +1099,75 @@ textarea:focus {
   border-width: 4px 0;
   padding: 16px;
   margin: 16px 0;
+}
+
+.callout--blue {
+  background-color: rgba(64, 173, 215, 0.1);
+  border-left: solid #40ADD7;
+  border-width: 8px;
+  padding: 8px 16px;
+  margin: 16px 0;
+}
+
+.callout--blue group {
+  margin: 16px 0;
+}
+
+.callout--blue p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: 640px) {
+  .callout--blue p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.callout--blue a {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: 640px) {
+  .callout--blue a {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.callout--grey {
+  max-width: 400px;
+  border-left: solid #768692;
+  border-width: 8px;
+  padding: 8px 16px;
+  margin: 16px 0 !important;
+}
+
+@media (min-width: 640px) {
+  .callout--grey {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 32px 0 !important;
+  }
+}
+
+.callout--grey p {
+  margin: 0;
+}
+
+.callout--grey a {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: 640px) {
+  .callout--grey a {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 .callout--info {

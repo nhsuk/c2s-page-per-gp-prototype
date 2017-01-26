@@ -5,3 +5,11 @@
 .shunt-2 {
   margin-top: $leading*4;
 }
+
+.container {
+  margin: $leading*2 0 !important;
+
+  @include media(640px) {
+    margin: $leading*3 0 !important;
+  }
+}

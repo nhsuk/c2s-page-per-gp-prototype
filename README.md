@@ -7,7 +7,7 @@ Note this is prototype code. Not intended for production use.
 Make sure you have Grunt installed first.
 
 Clone this repo:
-`git clone git@github.com:nhsuk/connecting-to-services-prototypes.git`
+`git clone git@github.com:nhsuk/c2s-page-per-gp-prototype.git`
 
 Install the dependencies:
 `npm install`

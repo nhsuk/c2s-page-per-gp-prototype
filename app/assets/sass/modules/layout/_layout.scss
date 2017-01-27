@@ -41,3 +41,15 @@ hr {
   margin: $leading*2 0;
   padding: 0
 }
+
+.hr--full-width {
+  background-color: #d9e1e2;
+  border: 0;
+  height: 1px;
+  text-align: left;
+  width: 100%;
+  box-sizing: content-box;
+  overflow: visible;
+  margin: $leading*2 0;
+  padding: 0
+}

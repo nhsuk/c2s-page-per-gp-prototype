@@ -5,7 +5,7 @@
 {% endblock page_title %}
 
 {% block pageTitle %}
-  Kenyon Medical Centre: Brandon Road
+  Meanwood Group Practice
 {% endblock pageTitle %}
 
 {% block surgeryInfo %}
@@ -14,12 +14,16 @@
 
 <!-- Main content here -->
 {% block content %}
-  {% include '_includes/v5/open-emergency-same-day-appointments.html' %}
+  {% include '_includes/v5/opening-times.html' %}
   <!-- {% include '_includes/v5/bank-holiday-times.html' %} -->
+  <hr class="hr--full-width" />
   {% include '_includes/v5/things-you-can-do-online.html' %}
+  <hr class="hr--full-width" />
 {% endblock content %}
 
 
 {% block rightColumn %}
     {% include '_includes/v5/need-help-quickly.html' %}
 {% endblock rightColumn %}
+
+{% include '_includes/v5/need-help-quickly.html' %}

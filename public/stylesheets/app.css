@@ -192,13 +192,6 @@ a:focus {
   margin: 16px 0;
 }
 
-@media (min-width: 640px) {
-  .links--large {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-
 body, pre.user-input {
   margin: 0;
   padding: 0;

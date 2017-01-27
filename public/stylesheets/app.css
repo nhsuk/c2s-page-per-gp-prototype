@@ -1113,6 +1113,23 @@ textarea:focus {
   margin-bottom: 16px;
 }
 
+.accordion {
+  margin: 16px 0;
+}
+
+.accordion__item {
+  background-color: #f5f5f5;
+  margin: 0;
+  border-bottom: 1px solid #d9e1e2;
+  padding: 8px;
+}
+
+@media (min-width: 640px) {
+  .accordion__item {
+    padding: 16px;
+  }
+}
+
 .attention {
   border: 12px solid #40add7;
   padding: 16px;

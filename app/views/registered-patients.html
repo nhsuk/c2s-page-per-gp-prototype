@@ -1,0 +1,28 @@
+{% extends '_layouts/layout_2-3_1-3_v5.html' %}
+
+{% block page_title %}
+  V1
+{% endblock page_title %}
+
+{% block pageTitle %}
+  Meanwood Group Practice
+{% endblock pageTitle %}
+
+{% block surgeryInfo %}
+  {% include '_includes/contact-details.html' %}
+{% endblock %}
+
+<!-- Main content here -->
+{% block content %}
+  {% include '_includes/opening-times.html' %}
+  <hr class="hr--full-width" />
+  {% include '_includes/things-you-can-do-online.html' %}
+  <hr class="hr--full-width" />
+{% endblock content %}
+
+
+{% block rightColumn %}
+    {% include '_includes/need-help-quickly.html' %}
+{% endblock rightColumn %}
+
+{% include '_includes/need-help-quickly.html' %}

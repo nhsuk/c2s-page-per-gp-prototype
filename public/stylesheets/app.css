@@ -122,8 +122,8 @@ h6 a {
 
 p {
   margin: 32px 0 32px 0;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 @media (min-width: 640px) {
@@ -135,6 +135,18 @@ p {
 
 pre.user-input {
   font-size: inherit;
+}
+
+.details__summary {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (min-width: 640px) {
+  .details__summary {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 ul, ol {
@@ -1150,8 +1162,8 @@ textarea:focus {
 
 .callout--blue p {
   margin: 0;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 @media (min-width: 640px) {

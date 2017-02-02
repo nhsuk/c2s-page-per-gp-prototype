@@ -25,8 +25,8 @@
 
   p {
     margin: 0;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 22px;
 
     @include media(640px) {
       font-size: 20px;

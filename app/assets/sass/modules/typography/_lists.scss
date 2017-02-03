@@ -16,6 +16,10 @@ ol {
 li {
     margin:  0 0 $leading 0;
     padding-left: 0;
+
+    p {
+      margin: 0;
+    }
 }
 
 ul.link-list {

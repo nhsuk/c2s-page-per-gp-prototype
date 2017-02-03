@@ -66,7 +66,7 @@ h2, .heading-xlarge, .secondary,
   padding: 16px 0 0 0;
   font-size: 30px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 40px;
 }
 
 @media (min-width: 500px) {
@@ -87,7 +87,7 @@ h3, .heading-large,
 }
 
 .smallprint {
-  font-size: 16px;
+  font-size: 14px;
   color: #666666;
 }
 
@@ -167,6 +167,10 @@ ol {
 li {
   margin: 0 0 16px 0;
   padding-left: 0;
+}
+
+li p {
+  margin: 0;
 }
 
 ul.link-list {
@@ -379,7 +383,7 @@ hr {
 .service-alert {
   background-color: #FFB81C;
   color: #00365D;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
 }
 
@@ -420,7 +424,7 @@ hr {
 .notification-banner {
   background-color: #000000;
   color: #d9e1e2;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
 }
 
@@ -431,7 +435,7 @@ hr {
 .notification-banner-inner {
   padding-bottom: 16px;
   padding-top: 16px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .notification-banner-inner p {
@@ -509,7 +513,7 @@ hr {
   padding-left: 0;
   color: #425563;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: underline;
 }
 
@@ -613,8 +617,16 @@ table th, table td {
   vertical-align: top;
   padding: 16px 8px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 18px;
   border-bottom: 1px solid #d9e1e2;
+}
+
+@media (min-width: 500px) {
+  table th, table td {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 table th {
@@ -637,6 +649,16 @@ table.natural {
 
 table.compact th, table.compact td {
   padding: leading/2;
+}
+
+.br__table {
+  display: block;
+}
+
+@media (min-width: 500px) {
+  .br__table {
+    display: none;
+  }
 }
 
 .serviceproviderOpeningTimes table {
@@ -823,7 +845,7 @@ label {
 .form-hint {
   display: block;
   clear: both;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 32px;
   color: #5C6770;

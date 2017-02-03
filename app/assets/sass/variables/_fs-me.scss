@@ -26,6 +26,7 @@
   font-style: bold;
 }
 
+$body--mobile: 16px;
 $body: 20px;
 $leading: 16px;
 $family: "FS Me", sans-serif;
@@ -40,10 +41,11 @@ $callout: 18px;
 body {
   font-family: $family;
   font-weight: $lightweight;
-  font-size: $body;
+  font-size: $body--mobile;
   line-height: $leading*2;
 
   @include media(640px) {
+      font-size: $body;
       font-weight: $bodyweight;
   }
 }

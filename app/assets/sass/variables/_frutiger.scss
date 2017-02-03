@@ -14,12 +14,13 @@ $family: "Neue Frutiger W01", sans-serif;
 16px
 */
 
+$body--mobile: 16px;
 $body: 20px;
 $leading: 16px;
 $lightweight: 200;
 $bodyweight: 400;
 $boldweight: 700;
-$smallprint: 16px;
+$smallprint: 14px;
 
 body {
   font-family: $family;
@@ -51,7 +52,7 @@ h2,
   margin: 0; padding: $leading 0 0 0;
   font-size: 30px;
   font-weight: $boldweight;
-  line-height: $leading*3;
+  line-height: 40px;
 
   @include media(mid) {
     font-size: 32px;

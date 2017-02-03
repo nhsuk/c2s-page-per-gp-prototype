@@ -11,8 +11,14 @@ table {
 
     font-weight: $bodyweight;
     font-size: $smallprint;
+    line-height: 18px;
 
     border-bottom: 1px solid $pale-grey;
+
+    @include media(mid) {
+      font-size: $body--mobile;
+      line-height: 22px;
+    }
   }
 
   th {
@@ -37,6 +43,15 @@ table {
     th, td {
       padding: leading/2;
     }
+  }
+
+}
+
+.br__table {
+  display: block;
+
+  @include media(mid) {
+    display: none;
   }
 
 }

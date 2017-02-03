@@ -25,8 +25,13 @@ $smallprint: 14px;
 body {
   font-family: $family;
   font-weight: $bodyweight;
-  font-size: $body;
+  font-size: $body--mobile;
   line-height: $leading*2;
+
+  @include media(mid) {
+      font-size: $body;
+      font-weight: $bodyweight;
+  }
 }
 
 // Reading width

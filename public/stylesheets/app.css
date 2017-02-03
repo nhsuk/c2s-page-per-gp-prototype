@@ -37,12 +37,13 @@ body, pre.user-input {
   font-family: "Neue Frutiger W01", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 22px;
 }
 
 @media (min-width: 500px) {
   body, pre.user-input {
     font-size: 20px;
+    line-height: 32px;
     font-weight: 400;
   }
 }
@@ -54,9 +55,9 @@ body, pre.user-input {
 h1, .heading-xxlarge, .primary,
 .h1 {
   margin: 16px 0;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 40px;
 }
 
 @media (min-width: 500px) {
@@ -71,16 +72,16 @@ h2, .heading-xlarge, .secondary,
 .h2 {
   margin: 0;
   padding: 16px 0 0 0;
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 700;
-  line-height: 40px;
 }
 
 @media (min-width: 500px) {
   h2, .heading-xlarge, .secondary,
   .h2 {
     font-size: 32px;
-    line-height: 48px;
+    line-height: 42px;
   }
 }
 
@@ -88,9 +89,17 @@ h3, .heading-large,
 .h3 {
   margin: 0;
   padding: 16px 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 28px;
+}
+
+@media (min-width: 500px) {
+  h3, .heading-large,
+  .h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .smallprint {
@@ -132,7 +141,7 @@ p {
   line-height: 22px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 500px) {
   p {
     line-height: 32px;
   }
@@ -143,7 +152,7 @@ pre.user-input {
 }
 
 ul, ol {
-  margin: 16px 0 32px 0;
+  margin: 16px 0 24px 0;
   padding-left: 1em;
   letter-spacing: 0.01em;
   list-style-position: outside;
@@ -196,9 +205,16 @@ a:focus {
 }
 
 .links--large {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 28px;
   margin: 16px 0;
+}
+
+@media (min-width: 640px) {
+  .links--large {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 body, pre.user-input {
@@ -1167,9 +1183,16 @@ iframe {
 
 .callout {
   background-color: #FFB81C;
-  border: solid #cc9316;
+  border: solid 8px;
   border-width: 4px 0;
-  padding: 16px;
+  padding: 12px;
+}
+
+@media (min-width: 500px) {
+  .callout {
+    border: 12px solid #40add7;
+    padding: 16px;
+  }
 }
 
 .callout--blue {
@@ -1249,7 +1272,14 @@ iframe {
 
 .callout--attention {
   background-color: transparent;
-  border: 12px solid #40add7;
+  border: 8px solid #40add7;
+}
+
+@media (min-width: 500px) {
+  .callout--attention {
+    border: 10px solid #40add7;
+    padding: 16px;
+  }
 }
 
 .callout p {
@@ -1286,7 +1316,7 @@ iframe {
 
 .need-help-quickly-mobile {
   display: block;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 
 @media (min-width: 850px) {

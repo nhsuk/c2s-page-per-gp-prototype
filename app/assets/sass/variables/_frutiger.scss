@@ -26,10 +26,11 @@ body {
   font-family: $family;
   font-weight: $bodyweight;
   font-size: $body--mobile;
-  line-height: $leading*2;
+  line-height: 22px;
 
   @include media(mid) {
       font-size: $body;
+      line-height: 32px;
       font-weight: $bodyweight;
   }
 }
@@ -42,9 +43,9 @@ body {
 h1,
 .h1 {
   margin: $leading 0;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: $bodyweight;
-  line-height: $leading*3;
+  line-height: 40px;
 
   @include media(mid) {
     font-size: 48px;
@@ -55,22 +56,27 @@ h1,
 h2,
 .h2 {
   margin: 0; padding: $leading 0 0 0;
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: $boldweight;
-  line-height: 40px;
 
   @include media(mid) {
     font-size: 32px;
-    line-height: $leading*3;
+    line-height: 42px;
   }
 }
 
 h3,
 .h3 {
   margin: 0; padding: $leading 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: $boldweight;
-  line-height: $leading*2;
+  line-height: 28px;
+
+  @include media(mid) {
+    font-size: 24px;
+    line-height: $leading*2;
+  }
 }
 
 .smallprint {

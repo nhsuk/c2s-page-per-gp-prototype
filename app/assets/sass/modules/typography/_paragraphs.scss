@@ -2,7 +2,7 @@ p {
   margin: $leading*2 0 $leading*2 0;
   line-height: 22px;
 
-  @include media(640px) {
+  @include media(mid) {
     line-height: 32px;
   }
 }

@@ -6,9 +6,14 @@
 
 .callout {
   background-color: $callout-background;
-  border: solid $callout-border;
+  border: solid 8px;
   border-width: 4px 0;
-  padding: $leading;
+  padding: 12px;
+
+  @include media(mid) {
+    border: 12px solid #40add7;
+    padding: $leading;
+  }
 }
 
 .callout--blue {
@@ -80,7 +85,12 @@
 
 .callout--attention {
   background-color: transparent;
-  border: 12px solid #40add7;
+  border: 8px solid #40add7;
+
+  @include media(mid) {
+    border: 10px solid #40add7;
+    padding: $leading;
+  }
 }
 
 .callout p {
@@ -119,7 +129,7 @@
 
 .need-help-quickly-mobile {
   display: block;
-  margin-top: 40px;
+  margin-top: 32px;
 
   @include media(850px) {
     display: none;

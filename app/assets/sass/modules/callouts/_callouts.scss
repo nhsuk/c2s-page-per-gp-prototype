@@ -9,7 +9,6 @@
   border: solid $callout-border;
   border-width: 4px 0;
   padding: $leading;
-  margin: $leading 0;
 }
 
 .callout--blue {
@@ -17,7 +16,6 @@
   border-left: solid #40ADD7;
   border-width: 8px;
   padding: $leading/2 $leading;
-  margin: $leading 0;
 
   group {
     margin: $leading 0;
@@ -83,7 +81,6 @@
 .callout--attention {
   background-color: transparent;
   border: 12px solid #40add7;
-  padding: $leading;
 }
 
 .callout p {
@@ -118,4 +115,21 @@
 
 .callout--on-dark {
   color: $black;
+}
+
+.need-help-quickly-mobile {
+  display: block;
+  margin-top: 40px;
+
+  @include media(850px) {
+    display: none;
+  }
+}
+
+.need-help-quickly-desktop {
+  display: none;
+
+  @include media(850px) {
+    display: block;
+  }
 }

@@ -1170,7 +1170,6 @@ iframe {
   border: solid #cc9316;
   border-width: 4px 0;
   padding: 16px;
-  margin: 16px 0;
 }
 
 .callout--blue {
@@ -1178,7 +1177,6 @@ iframe {
   border-left: solid #40ADD7;
   border-width: 8px;
   padding: 8px 16px;
-  margin: 16px 0;
 }
 
 .callout--blue group {
@@ -1252,7 +1250,6 @@ iframe {
 .callout--attention {
   background-color: transparent;
   border: 12px solid #40add7;
-  padding: 16px;
 }
 
 .callout p {
@@ -1285,4 +1282,25 @@ iframe {
 
 .callout--on-dark {
   color: #231f20;
+}
+
+.need-help-quickly-mobile {
+  display: block;
+  margin-top: 40px;
+}
+
+@media (min-width: 850px) {
+  .need-help-quickly-mobile {
+    display: none;
+  }
+}
+
+.need-help-quickly-desktop {
+  display: none;
+}
+
+@media (min-width: 850px) {
+  .need-help-quickly-desktop {
+    display: block;
+  }
 }

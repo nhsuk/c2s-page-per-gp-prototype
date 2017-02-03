@@ -63,8 +63,8 @@
   }
 
   a {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 22px;
 
     @include media(640px) {
       font-size: 20px;
@@ -78,7 +78,6 @@
   border: solid #768692;
   border-width: 0 0 0 4px;
   padding: $leading;
-  margin: $leading 0;
 }
 
 .callout--attention {
@@ -89,7 +88,7 @@
 
 .callout p {
   padding: 0;
-  margin: 16px 0;
+  margin: 8px 0;
 }
 
 .info-panel {

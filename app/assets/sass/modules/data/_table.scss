@@ -16,6 +16,7 @@ table {
     border-bottom: 1px solid $pale-grey;
 
     @include media(mid) {
+      padding: $leading $leading;
       font-size: $body--mobile;
       line-height: 22px;
     }

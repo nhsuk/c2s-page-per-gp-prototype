@@ -645,6 +645,7 @@ table th, table td {
 
 @media (min-width: 500px) {
   table th, table td {
+    padding: 16px 16px;
     font-size: 16px;
     line-height: 22px;
   }

@@ -14,10 +14,19 @@
     {% include '_includes/masthead.html' %}
 
     <main id="content" role="main" class="content">
+
           <div class="grid-row">
             <div class="grid-3-3">
-              {% block acceptingPatients %}{% endblock acceptingPatients %}
-              <h1 style="font-weight:bold;">{% block pageTitle %}{% endblock %}</h1>
+
+              <div class="header-panel">
+                {% block acceptingPatients %}{% endblock acceptingPatients %}
+                <h1 class="h2 header">
+                  {% block pageTitle %}{% endblock %}
+                </h1>
+                <div class="content-seperator"></div>
+                <p class="h3 precis">{% block pageIntro %}{% endblock %}</p>
+              </div>
+
             </div>
           </div>
 

@@ -7,9 +7,18 @@
 }
 
 .container {
-  margin: $leading*2 0 !important;
+  margin: 16px 0 !important;
 
   @include media(640px) {
-    margin: $leading*3 0 !important;
+    margin: 32px 0 !important;
+  }
+}
+
+
+.practice-location {
+  margin-bottom: 16px;
+
+  @include media(640px) {
+    margin: 0;
   }
 }

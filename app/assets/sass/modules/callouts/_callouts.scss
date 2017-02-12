@@ -48,6 +48,38 @@
   }
 }
 
+.callout--white {
+  color: white;
+  border-left: solid white;
+  border-width: 4px;
+  padding: $leading/2 $leading;
+
+  group {
+    margin: $leading 0;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+
+    @include media(640px) {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+  a {
+    font-size: 14px;
+    line-height: 18px;
+
+    @include media(640px) {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}
+
 .callout--grey {
   max-width: 400px;
   border-left: solid #768692;

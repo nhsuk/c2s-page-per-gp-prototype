@@ -12,3 +12,14 @@ pre.user-input {
 
   font-size: inherit;
 }
+
+
+.on-dark {
+  a {
+    color:white !important;
+
+    &:visited {
+      color: $pure-white;
+    }
+  }
+}

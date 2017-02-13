@@ -13,13 +13,21 @@
 {% endblock %}
 
 {% block pageIntro %}
-  test
+  test link 1<br/>
+  test link 2<br/>
+  test link 3<br/>
+{% endblock %}
+
+{% block leftHalf %}
+  {% include '_includes/non-registered-v2/location.html' %}
+{% endblock %}
+
+{% block rightHalf %}
+  {% include '_includes/non-registered-v2/contact-details.html' %}
 {% endblock %}
 
 <!-- Main content here -->
 {% block content %}
-  {% include '_includes/non-registered-v2/contact-details.html' %}
-  {% include '_includes/non-registered-v2/location.html' %}
   {% include '_includes/non-registered-v2/location-map.html' %}
   <hr class="hr--full-width" style="margin:40px 0;" />
   {% include '_includes/non-registered-v2/reception-opening-times.html' %}

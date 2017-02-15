@@ -1227,6 +1227,7 @@ iframe {
   border-left: solid #40ADD7;
   border-width: 8px;
   padding: 8px 16px;
+  margin: 24px 0;
 }
 
 .callout--blue group {

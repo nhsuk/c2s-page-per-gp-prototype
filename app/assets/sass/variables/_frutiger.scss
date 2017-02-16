@@ -44,7 +44,7 @@ h1,
 .h1 {
   margin: $leading 0;
   font-size: 32px;
-  font-weight: $bodyweight;
+  font-weight: bold;
   line-height: 40px;
 
   @include media(mid) {

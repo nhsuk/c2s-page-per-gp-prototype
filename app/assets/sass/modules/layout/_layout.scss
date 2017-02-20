@@ -31,15 +31,19 @@ body {
 
 
 hr {
-  background-color: #d9e1e2;
+  background-color: transparent;
   border: 0;
   height: 4px;
   text-align: left;
   width: 130px;
   box-sizing: content-box;
   overflow: visible;
-  margin: $leading*2 0;
-  padding: 0
+  margin: 24px 0;
+  padding: 0;
+
+  @include media(mid) {
+    margin: 32px 0;
+  }
 }
 
 .hr--full-width {

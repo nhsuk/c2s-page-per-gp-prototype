@@ -70,8 +70,7 @@ h1, .heading-xxlarge, .primary,
 
 h2, .heading-xlarge, .secondary,
 .h2 {
-  margin: 0;
-  padding: 16px 0 0 0;
+  margin-bottom: 16px;
   font-size: 28px;
   line-height: 36px;
   font-weight: 700;
@@ -80,6 +79,7 @@ h2, .heading-xlarge, .secondary,
 @media (min-width: 500px) {
   h2, .heading-xlarge, .secondary,
   .h2 {
+    margin-bottom: 24px;
     font-size: 32px;
     line-height: 42px;
   }
@@ -87,8 +87,8 @@ h2, .heading-xlarge, .secondary,
 
 h3, .heading-large,
 .h3 {
-  margin: 16px 0;
-  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 0px;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
@@ -97,8 +97,7 @@ h3, .heading-large,
 @media (min-width: 500px) {
   h3, .heading-large,
   .h3 {
-    margin: 24px 0;
-    padding: 0;
+    margin-top: 48px;
     font-size: 24px;
     line-height: 32px;
   }
@@ -280,15 +279,21 @@ body, pre.user-input {
 }
 
 hr {
-  background-color: #d9e1e2;
+  background-color: transparent;
   border: 0;
   height: 4px;
   text-align: left;
   width: 130px;
   box-sizing: content-box;
   overflow: visible;
-  margin: 32px 0;
+  margin: 24px 0;
   padding: 0;
+}
+
+@media (min-width: 500px) {
+  hr {
+    margin: 32px 0;
+  }
 }
 
 .hr--full-width {
@@ -410,12 +415,12 @@ hr {
 }
 
 .container {
-  margin: 16px 0 !important;
+  margin: 40px 0 !important;
 }
 
 @media (min-width: 640px) {
   .container {
-    margin: 32px 0 !important;
+    margin: 56px 0 !important;
   }
 }
 
@@ -426,6 +431,16 @@ hr {
 @media (min-width: 640px) {
   .practice-location {
     margin: 0;
+  }
+}
+
+.first-item {
+  margin-top: 24px !important;
+}
+
+@media (min-width: 500px) {
+  .first-item {
+    margin-top: 32px !important;
   }
 }
 

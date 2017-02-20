@@ -55,12 +55,13 @@ h1,
 
 h2,
 .h2 {
-  margin: 0; padding: $leading 0 0 0;
+  margin-bottom: 16px;
   font-size: 28px;
   line-height: 36px;
   font-weight: $boldweight;
 
   @include media(mid) {
+    margin-bottom: 24px;
     font-size: 32px;
     line-height: 42px;
   }
@@ -68,13 +69,14 @@ h2,
 
 h3,
 .h3 {
-  margin: 16px 0; padding: 0;
+  margin-top: 24px;
+  margin-bottom: 0px;
   font-size: 20px;
   font-weight: $boldweight;
   line-height: 28px;
 
   @include media(mid) {
-    margin: 24px 0; padding: 0;
+    margin-top: 48px;
     font-size: 24px;
     line-height: $leading*2;
   }

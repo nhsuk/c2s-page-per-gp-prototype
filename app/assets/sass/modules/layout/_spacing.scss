@@ -7,10 +7,10 @@
 }
 
 .container {
-  margin: 16px 0 !important;
+  margin: 40px 0 !important;
 
   @include media(640px) {
-    margin: 32px 0 !important;
+    margin: 56px 0 !important;
   }
 }
 
@@ -20,5 +20,13 @@
 
   @include media(640px) {
     margin: 0;
+  }
+}
+
+.first-item {
+  margin-top:24px !important;
+
+  @include media(mid) {
+    margin-top:32px !important;
   }
 }

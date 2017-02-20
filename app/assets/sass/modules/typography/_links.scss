@@ -33,6 +33,11 @@ a:focus {
   margin: 12px 0;
   font-size: 14px;
   line-height: 18px;
+
+  @include media(mid) {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 .link--reverse-polarity {

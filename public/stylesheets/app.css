@@ -167,6 +167,10 @@ pre.user-input {
   color: #fff;
 }
 
+.p--header-panel {
+  margin-top: 0;
+}
+
 ul, ol {
   margin: 16px 0 24px 0;
   padding-left: 1em;
@@ -216,10 +220,6 @@ a:focus {
   box-shadow: 0 0 0 5px #F7E214;
 }
 
-.link--reverse-polarity {
-  color: white !important;
-}
-
 .links--large {
   font-size: 18px;
   line-height: 24px;
@@ -231,6 +231,20 @@ a:focus {
     font-size: 24px;
     line-height: 32px;
   }
+}
+
+.anchor-link {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.link--reverse-polarity {
+  color: white !important;
+}
+
+.link--reverse-polarity a {
+  color: white !important;
 }
 
 body, pre.user-input {
@@ -1083,7 +1097,7 @@ textarea:focus {
   margin: 0 auto;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 900px) {
   .header-panel {
     padding-top: 32px;
     padding-left: 32px;
@@ -1112,6 +1126,29 @@ textarea:focus {
 .header-panel__content {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.header__address {
+  width: 100%;
+  display: inline-block;
+}
+
+@media (min-width: 640px) {
+  .header__address {
+    width: 49%;
+    float: left;
+  }
+}
+
+.header__contact {
+  width: 100%;
+  display: inline-block;
+}
+
+@media (min-width: 640px) {
+  .header__contact {
+    width: 49%;
+  }
 }
 
 .signage {

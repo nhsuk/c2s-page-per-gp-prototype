@@ -18,11 +18,6 @@ a:focus {
   box-shadow: 0 0 0 5px $focus-colour;
 }
 
-
-.link--reverse-polarity {
-  color: white !important
-}
-
 .links--large {
   font-size: 18px;
   line-height: 24px;
@@ -32,4 +27,18 @@ a:focus {
      font-size: 24px;
      line-height: 32px;
    }
+}
+
+.anchor-link {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.link--reverse-polarity {
+  color: white !important;
+
+  a {
+    color: white !important;
+  }
 }

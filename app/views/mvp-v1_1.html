@@ -8,26 +8,19 @@
   Kenyon Medical Centres: Brandon Road
 {% endblock pageTitle %}
 
-{% block pageIntro %}
-  <p class="on-dark"><a href="#when-the-surgery-is-open">When reception is open</a></p>
-  <p class="on-dark"><a href="#when-to-see-a-gp">When GPs see patients</a></p>
-  <p class="on-dark" ><a href="#tasks">Book a GP appointment</a></p>
-  <p class="on-dark" ><a href="#patients-stats">What patients say about this surgery</a></p>
-  <p class="on-dark" ><a href="#healthcare-staff">GPs at this surgery</a></p>
-  <p class="on-dark" ><a href="#specialied-services">Services at this surgery</a></p>
-  <p class="on-dark" ><a href="#facilities">Parking and accessibility</a><br/></p>
-  <p class="on-dark" ><a href="#register">Register as a patient with this surgery</a></p>
+{% block leftHalf %}
+  {% include '_includes/mvp-v1_1/address.html' %}
 {% endblock %}
 
-{% block acceptingPatients %}
-
+{% block rightHalf %}
+  {% include '_includes/mvp-v1_1/contact.html' %}
 {% endblock %}
 
 <!-- Main content here -->
 {% block content %}
-  <div id="address-contact">{% include '_includes/mvp-v1_1/address-and-contact.html' %}</div>
+  {% include '_includes/mvp-v1_1/anchor-links.html' %}
   <hr class="hr--full-width" style="margin:40px 0;" />
-  <div id="when-the-surgery-is-open">{% include '_includes/mvp-v1_1/when-the-surgery-is-open.html' %}</div>
+  <div id="when-the-reception-is-open">{% include '_includes/mvp-v1_1/when-the-reception-is-open.html' %}</div>
   <div id="when-to-see-a-gp">{% include '_includes/mvp-v1_1/when-gp-see-patients.html' %}</div>
   <hr class="hr--full-width" style="margin:40px 0;" />
   <div id="tasks">{% include '_includes/mvp-v1_1/tasks.html' %}</div>

@@ -166,10 +166,6 @@ pre.user-input {
   color: #fff;
 }
 
-.p--header-panel {
-  margin-top: 0;
-}
-
 ul, ol {
   margin: 16px 0 24px 0;
   padding-left: 1em;
@@ -1115,7 +1111,7 @@ textarea:focus {
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
   margin: 0 auto;
 }
 
@@ -1124,8 +1120,7 @@ textarea:focus {
     padding-top: 32px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 16px;
-    margin-top: 32px;
+    padding-bottom: 32px;
     max-width: 900px;
   }
 }
@@ -1171,6 +1166,27 @@ textarea:focus {
   .header__contact {
     width: 49%;
   }
+}
+
+.header__text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.header__text--large {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (min-width: 640px) {
+  .header__text--large {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.p--header-panel {
+  margin: 8px 0 0 0;
 }
 
 .signage {

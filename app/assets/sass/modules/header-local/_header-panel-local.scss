@@ -4,7 +4,7 @@
   padding-top: $leading;
   padding-left: $leading;
   padding-right: $leading;
-  padding-bottom: $leading/2;
+  padding-bottom: $leading;
   margin: 0 auto;
 
 
@@ -12,8 +12,7 @@
     padding-top: $leading*2;
     padding-left: $leading*2;
     padding-right: $leading*2;
-    padding-bottom: $leading;
-    margin-top: 32px;
+    padding-bottom: $leading*2;
     max-width: 900px;
   }
 
@@ -45,7 +44,7 @@
 
     @include media(640px) {
       width:49%;
-      float: left; 
+      float: left;
   }
 }
 
@@ -56,4 +55,28 @@
     @include media(640px) {
       width:49%;
   }
+}
+
+.header__text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.header__text--large {
+
+  font-size: 20px;
+  line-height: 24px;
+
+  @include media(640px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.header__text--no-margin-top {
+
+}
+
+.p--header-panel {
+  margin: 8px 0 0 0;
 }

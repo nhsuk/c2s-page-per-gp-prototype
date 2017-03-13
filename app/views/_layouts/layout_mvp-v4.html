@@ -14,27 +14,15 @@
     {% include '_includes/masthead.html' %}
 
     <main id="content" role="main" class="content">
-
-          <div class="grid-row">
+          <div class="header-panel"><div class="grid-row">
             <div class="grid-3-3">
-              <h1 class="">
+              <h1>
                 {% block pageTitle %}{% endblock %}
               </h1>
-            </div>
-          </div>
-          <div class="grid-row">
-            <div class="grid-3-3">
               <div class="content-seperator"></div>
-                {% block pageIntro %}{% endblock %}
-              <div class="header__address">
-                {% block leftHalf %}{% endblock leftHalf %}
-              </div>
-              <div class="header__contact">
-                {% block rightHalf %}{% endblock rightHalf %}
-              </div>
-              <hr class="hr--full-width"/>
+              {% block addressContact %}{% endblock addressContact %}
             </div>
-          </div>
+          </div></div>
 
       <!-- Page content goes here -->
       <div class="grid-row">

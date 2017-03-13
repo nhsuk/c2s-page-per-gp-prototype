@@ -7,6 +7,10 @@
   padding-bottom: $leading;
   margin: 0 auto;
 
+  a {
+    color: $pure-white !important;
+  }
+
 
   @include media(900px) {
     padding-top: $leading*2;
@@ -37,36 +41,9 @@
   margin: 0 auto;
 }
 
-.header__address {
-  width: 100%;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 24px !important;
-
-    @include media(mid) {
-      font-size: 16px;
-      line-height: 24px !important;
-      width:49%;
-      float: left;
-  }
-}
-
-.header__contact {
-  width: 100%;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 24px !important;
-
-    @include media(mid) {
-      width:49%;
-      font-size: 16px;
-      line-height: 24px !important;
-  }
-}
-
 .header__text {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .header__text--large {
@@ -80,10 +57,9 @@
   }
 }
 
-.header__text--no-margin-top {
-
-}
-
 .p--header-panel {
   margin: 8px 0 0 0;
+
+  font-size: 16px;
+  line-height: 24px;
 }

@@ -7,10 +7,10 @@
 }
 
 .container {
-  margin: 40px 0 !important;
+  margin: 24px 0 !important;
 
   @include media(640px) {
-    margin: 56px 0 !important;
+    margin: 32px 0 !important;
   }
 }
 

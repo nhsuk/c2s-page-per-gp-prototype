@@ -429,12 +429,12 @@ hr {
 }
 
 .container {
-  margin: 40px 0 !important;
+  margin: 24px 0 !important;
 }
 
 @media (min-width: 640px) {
   .container {
-    margin: 56px 0 !important;
+    margin: 32px 0 !important;
   }
 }
 

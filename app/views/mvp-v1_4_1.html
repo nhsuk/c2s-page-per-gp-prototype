@@ -1,0 +1,42 @@
+{% extends '_layouts/layout_mvp-v4_1.html' %}
+
+{% block page_title %}
+  Kenyon Medical Centres: Brandon Road
+{% endblock page_title %}
+
+{% block pageTitle %}
+  Kenyon Medical Centres: Brandon Road
+{% endblock pageTitle %}
+
+{% block leftHalf %}
+  {% include '_includes/mvp-v1_4_1/address.html' %}
+{% endblock %}
+
+{% block rightHalf %}
+  {% include '_includes/mvp-v1_4_1/header-links.html' %}
+{% endblock %}
+
+{% block map %}
+  {% include '_includes/mvp-v1_4_1/location-map.html' %}
+{% endblock %}
+
+<!-- Main content here -->
+{% block content %}
+  {% include '_includes/mvp-v1_4_1/when-the-reception-is-open.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/when-gp-see-patients.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/tasks.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/what-patients-say-about-this-surgery.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/healthcare-staff-at-this-surgery.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/specialised-services.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/facilities.html' %}
+  <hr/>
+  {% include '_includes/mvp-v1_4_1/register-as-patient.html' %}
+  <hr/>
+  <div id="contact">{% include '_includes/mvp-v1_4_1/contact.html' %}</div>
+{% endblock content %}

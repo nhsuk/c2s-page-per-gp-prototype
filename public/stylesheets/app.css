@@ -238,6 +238,10 @@ a:focus {
   color: white !important;
 }
 
+.p__link--list {
+  margin: 8px 0;
+}
+
 body, pre.user-input {
   margin: 0;
   padding: 0;

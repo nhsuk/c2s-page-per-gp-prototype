@@ -1,12 +1,3 @@
-p {
-  margin: $leading*2 0 $leading*2 0;
-  line-height: 22px;
-
-  @include media(mid) {
-    line-height: 32px;
-  }
-}
-
 pre.user-input {
   @extend body;
 

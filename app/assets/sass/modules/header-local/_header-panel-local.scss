@@ -37,12 +37,15 @@
   margin: 0 auto;
 }
 
-
 .header__address {
   width: 100%;
   display: inline-block;
+  font-size: 14px;
+  line-height: 24px !important;
 
-    @include media(640px) {
+    @include media(mid) {
+      font-size: 16px;
+      line-height: 24px !important;
       width:49%;
       float: left;
   }
@@ -51,9 +54,13 @@
 .header__contact {
   width: 100%;
   display: inline-block;
+  font-size: 14px;
+  line-height: 24px !important;
 
-    @include media(640px) {
+    @include media(mid) {
       width:49%;
+      font-size: 16px;
+      line-height: 24px !important;
   }
 }
 
@@ -67,7 +74,7 @@
   font-size: 20px;
   line-height: 24px;
 
-  @include media(640px) {
+  @include media(mid) {
     font-size: 20px;
     line-height: 24px;
   }

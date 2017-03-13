@@ -137,17 +137,6 @@ h6 a {
   font-weight: bold;
 }
 
-p {
-  margin: 32px 0 32px 0;
-  line-height: 22px;
-}
-
-@media (min-width: 500px) {
-  p {
-    line-height: 32px;
-  }
-}
-
 pre.user-input {
   font-size: inherit;
 }
@@ -1148,10 +1137,14 @@ textarea:focus {
 .header__address {
   width: 100%;
   display: inline-block;
+  font-size: 14px;
+  line-height: 24px !important;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 500px) {
   .header__address {
+    font-size: 16px;
+    line-height: 24px !important;
     width: 49%;
     float: left;
   }
@@ -1160,11 +1153,15 @@ textarea:focus {
 .header__contact {
   width: 100%;
   display: inline-block;
+  font-size: 14px;
+  line-height: 24px !important;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 500px) {
   .header__contact {
     width: 49%;
+    font-size: 16px;
+    line-height: 24px !important;
   }
 }
 
@@ -1178,7 +1175,7 @@ textarea:focus {
   line-height: 24px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 500px) {
   .header__text--large {
     font-size: 20px;
     line-height: 24px;

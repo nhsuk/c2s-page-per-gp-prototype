@@ -51,3 +51,13 @@ a:focus {
 .p__link--list {
   margin: 8px 0;
 }
+
+.p__link--list-1st {
+  margin-bottom: 8px;
+  margin-top: 16px !important;
+
+  @include media(mid) {
+    margin-top: 0px !important;
+  }
+
+}

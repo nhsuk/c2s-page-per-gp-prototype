@@ -8,14 +8,16 @@
   Kenyon Medical Centres: Brandon Road
 {% endblock pageTitle %}
 
-{% block addressContact %}
+{% block leftHalf %}
   {% include '_includes/mvp-v1_4/address.html' %}
+{% endblock %}
+
+{% block rightHalf %}
+  {% include '_includes/mvp-v1_4/header-links.html' %}
 {% endblock %}
 
 <!-- Main content here -->
 {% block content %}
-  <hr/>
-  {% include '_includes/mvp-v1_4/header-links.html' %}
   <hr/>
   {% include '_includes/mvp-v1_4/when-the-reception-is-open.html' %}
   <hr/>

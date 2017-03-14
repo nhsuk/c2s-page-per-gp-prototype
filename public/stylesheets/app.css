@@ -242,6 +242,17 @@ a:focus {
   margin: 8px 0;
 }
 
+.p__link--list-1st {
+  margin-bottom: 8px;
+  margin-top: 16px !important;
+}
+
+@media (min-width: 500px) {
+  .p__link--list-1st {
+    margin-top: 0px !important;
+  }
+}
+
 body, pre.user-input {
   margin: 0;
   padding: 0;

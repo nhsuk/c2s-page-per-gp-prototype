@@ -263,8 +263,8 @@ body, pre.user-input {
 .content {
   max-width: 960px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media (min-width: 980px) {
@@ -286,20 +286,20 @@ body, pre.user-input {
 }
 
 hr {
-  background-color: transparent;
+  background-color: #ddd;
   border: 0;
-  height: 4px;
+  height: 1px;
   text-align: left;
-  width: 130px;
+  width: 100%;
   box-sizing: content-box;
   overflow: visible;
-  margin: 24px 0;
+  margin: 32px 0;
   padding: 0;
 }
 
 @media (min-width: 500px) {
   hr {
-    margin: 32px 0;
+    margin: 56px 0;
   }
 }
 
@@ -1164,6 +1164,49 @@ textarea:focus {
 
 .header-panel .precis {
   font-weight: 200;
+}
+
+.header-panel--v2 {
+  color: #fff;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  margin: 0 auto;
+}
+
+.header-panel--v2 a {
+  color: #fff !important;
+}
+
+@media (min-width: 900px) {
+  .header-panel--v2 {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    max-width: 960px;
+  }
+}
+
+.header-panel--v2 .header {
+  margin-bottom: 32px;
+}
+
+.header-panel--v2 .content-seperator {
+  width: 130px;
+  height: 4px;
+  background-color: #337ec6;
+  margin-bottom: 24px;
+}
+
+.header-panel--v2 .precis {
+  font-weight: 200;
+}
+
+.header-panel--background {
+  background-color: #005EB8;
+  width: 100%;
 }
 
 .header-panel__content {

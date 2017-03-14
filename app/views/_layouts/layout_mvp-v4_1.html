@@ -14,27 +14,26 @@
     {% include '_includes/masthead.html' %}
 
     <main id="content" role="main" class="content">
-
-            <div class="grid-row">
-              <div class="grid-3-3">
-                <h1>
-                  {% block pageTitle %}{% endblock %}
-                </h1>
-                <div class="content-seperator"></div>
-                {% block addressContact %}{% endblock addressContact %}
-              </div>
-          </div>
-          <div class="grid-row">
-            <div class="grid-1-2">
-              {% block leftHalf %}{% endblock leftHalf %}
-            </div>
-            <div class="grid-1-2">
-              {% block rightHalf %}{% endblock rightHalf %}
-            </div>
-          </div>
-          <div class="grid-3-3">
-            {% block map %}{% endblock map %}
-          </div>
+      <div class="grid-row">
+        <div class="grid-3-3">
+          <h1>
+            {% block pageTitle %}{% endblock %}
+          </h1>
+          <div class="content-seperator"></div>
+          {% block addressContact %}{% endblock addressContact %}
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-1-2">
+          {% block leftHalf %}{% endblock leftHalf %}
+        </div>
+        <div class="grid-1-2">
+          {% block rightHalf %}{% endblock rightHalf %}
+        </div>
+      </div>
+      <div class="grid-3-3">
+        {% block map %}{% endblock map %}
+      </div>
 
       <!-- Page content goes here -->
       <div class="grid-row">

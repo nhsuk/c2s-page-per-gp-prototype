@@ -13,25 +13,28 @@
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
     {% include '_includes/masthead.html' %}
 
-    <main id="content" role="main" class="content">
-      <div class="header-panel">
-        <div class="grid-row">
-          <div class="grid-3-3">
-            <h1>
-              {% block pageTitle %}{% endblock %}
-            </h1>
-            <div class="content-seperator"></div>
-          </div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-1-2">
-            {% block leftHalf %}{% endblock leftHalf %}
-          </div>
-          <div class="grid-1-2">
-            {% block rightHalf %}{% endblock rightHalf %}
-          </div>
+<div class="header-panel--background">
+  <div class="header-panel--v2">
+      <div class="grid-row">
+        <div class="grid-3-3">
+          <h1>
+            {% block pageTitle %}{% endblock %}
+          </h1>
+          <div class="content-seperator"></div>
         </div>
       </div>
+      <div class="grid-row">
+        <div class="grid-1-2">
+          {% block leftHalf %}{% endblock leftHalf %}
+        </div>
+        <div class="grid-1-2">
+          {% block rightHalf %}{% endblock rightHalf %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <main id="content" role="main" class="content">
 
       <!-- Page content goes here -->
       <div class="grid-row">

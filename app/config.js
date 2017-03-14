@@ -13,7 +13,7 @@ module.exports = {
   practicePostcode: 'LS8 1AY',
 
   // Default port that prototype runs on
-  port: '5000',
+  port: '8000',
 
   // Enable or disable password protection on production
   useAuth: 'true',

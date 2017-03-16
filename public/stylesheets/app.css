@@ -1306,7 +1306,13 @@ iframe {
 }
 
 .contact-details {
-  margin-bottom: 16px;
+  margin-top: 32px !important;
+}
+
+@media (min-width: 640px) {
+  .contact-details {
+    margin-top: 0 !important;
+  }
 }
 
 .accordion {

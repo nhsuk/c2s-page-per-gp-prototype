@@ -7,6 +7,10 @@
   padding-bottom: $leading;
   margin: 0 auto;
 
+  p {
+    -webkit-font-smoothing: antialiased;
+  }
+
   a {
     color: $pure-white !important;
   }
@@ -46,6 +50,10 @@
 
   a {
     color: $pure-white !important;
+  }
+
+  p {
+    -webkit-font-smoothing: antialiased;
   }
 
 

@@ -1142,6 +1142,10 @@ textarea:focus {
   margin: 0 auto;
 }
 
+.header-panel p {
+  -webkit-font-smoothing: antialiased;
+}
+
 .header-panel a {
   color: #fff !important;
 }
@@ -1182,6 +1186,10 @@ textarea:focus {
 
 .header-panel--v2 a {
   color: #fff !important;
+}
+
+.header-panel--v2 p {
+  -webkit-font-smoothing: antialiased;
 }
 
 @media (min-width: 900px) {
@@ -1531,4 +1539,17 @@ iframe {
   .need-help-quickly-desktop {
     display: block;
   }
+}
+
+.callout--header {
+  padding: 8px 16px;
+  margin-left: 16px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.callout--header p {
+  margin: 0;
 }

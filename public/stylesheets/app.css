@@ -1541,15 +1541,13 @@ iframe {
   }
 }
 
-.callout--header {
-  padding: 8px 16px;
-  margin-left: 16px;
+.callout--local-header {
   display: inline-block;
   font-size: 16px;
   line-height: 22px;
   font-weight: bold;
 }
 
-.callout--header p {
+.callout--local-header p {
   margin: 0;
 }

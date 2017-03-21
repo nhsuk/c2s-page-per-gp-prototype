@@ -82,7 +82,7 @@ dd {
   line-height: 22px;
 }
 
-.gp-appointments__mobile {
+.appointments__mobile {
   display: block;
 
   @include media(mid) {
@@ -90,7 +90,7 @@ dd {
   }
 }
 
-.gp-appointments__desktop {
+.appointments__desktop {
   display: none;
 
   @include media(mid) {

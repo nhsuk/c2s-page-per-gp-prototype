@@ -780,22 +780,22 @@ dd {
   line-height: 22px;
 }
 
-.gp-appointments__mobile {
+.appointments__mobile {
   display: block;
 }
 
 @media (min-width: 500px) {
-  .gp-appointments__mobile {
+  .appointments__mobile {
     display: none;
   }
 }
 
-.gp-appointments__desktop {
+.appointments__desktop {
   display: none;
 }
 
 @media (min-width: 500px) {
-  .gp-appointments__desktop {
+  .appointments__desktop {
     display: block;
   }
 }

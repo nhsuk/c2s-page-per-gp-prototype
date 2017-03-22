@@ -291,9 +291,9 @@ body, pre.user-input {
 }
 
 hr {
-  background-color: #ddd;
+  background-color: #eee;
   border: 0;
-  height: 1px;
+  height: 3px;
   text-align: left;
   width: 100%;
   box-sizing: content-box;

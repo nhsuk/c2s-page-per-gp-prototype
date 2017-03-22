@@ -713,7 +713,7 @@ table th, table td {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  border-bottom: 1px solid #d9e1e2;
+  border-bottom: 1px solid #eee;
 }
 
 @media (min-width: 640px) {

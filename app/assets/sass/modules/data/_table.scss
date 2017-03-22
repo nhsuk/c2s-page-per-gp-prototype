@@ -13,7 +13,7 @@ table {
     font-size: $smallprint;
     line-height: 18px;
 
-    border-bottom: 1px solid $pale-grey;
+    border-bottom: 1px solid #eee;
 
     @include media(640px) {
       font-size: $body--mobile;

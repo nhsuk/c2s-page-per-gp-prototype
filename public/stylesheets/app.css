@@ -338,6 +338,10 @@ hr {
   padding: 0;
 }
 
+.section {
+  padding-top: 32px;
+}
+
 .grid-row {
   display: block;
   margin-left: -1.7%;

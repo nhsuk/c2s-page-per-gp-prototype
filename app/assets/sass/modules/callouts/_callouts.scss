@@ -17,36 +17,8 @@
 }
 
 .callout--blue {
-  background-color: transparentize(#40ADD7, 0.9);
-  border-left: solid #40ADD7;
-  border-width: 8px;
-  padding: $leading/2 $leading;
-  margin: 24px 0;
-
-  group {
-    margin: $leading 0;
-  }
-
-  p {
-    margin: 0;
-    font-size: 16px;
-    line-height: 22px;
-
-    @include media(640px) {
-      font-size: 20px;
-      line-height: 32px;
-    }
-  }
-
-  a {
-    font-size: 14px;
-    line-height: 18px;
-
-    @include media(640px) {
-      font-size: 20px;
-      line-height: 32px;
-    }
-  }
+  background-color: transparentize(#40ADD7, 0.9) !important;
+  border-left: solid #40ADD7 !important;
 }
 
 .callout--white {

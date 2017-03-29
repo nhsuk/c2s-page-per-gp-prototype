@@ -13,27 +13,7 @@
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
     {% include '_includes/v1_4/masthead.html' %}
 
-<div class="header-panel--background">
-  <div class="header-panel--v2">
-      <div class="grid-row">
-        <div class="grid-3-3">
-          <!-- <div class="callout--local-header"><p>This surgery is accepting new patients</p></div> -->
-          <h1>
-            {% block pageTitle %}{% endblock %}
-          </h1>
-          <div class="content-seperator"></div>
-        </div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-1-2">
-          {% block leftHalf %}{% endblock leftHalf %}
-        </div>
-        <div class="grid-1-2">
-          {% block rightHalf %}{% endblock rightHalf %}
-        </div>
-      </div>
-    </div>
-  </div>
+    {% block localHeader %} {% endblock localHeader %}
 
     <main id="content" role="main" class="content">
 

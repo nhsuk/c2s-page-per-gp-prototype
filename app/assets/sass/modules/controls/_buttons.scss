@@ -40,7 +40,7 @@
 
   @include media(mid) {
     width: auto;
-    margin: 0 $leading 0 0;
+    margin: 0 $leading $leading 0;
   }
 
   &.-back {
@@ -103,5 +103,7 @@
   padding: 2px $leading/2;
   color: $nhs-blue;
   margin-right: $leading/4;
-  font-weight: $bodyweight;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 22px;
 }

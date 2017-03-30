@@ -161,6 +161,20 @@ pre.user-input {
   margin-top: -12px;
 }
 
+.p__header--telephone {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 500px) {
+  .p__header--telephone {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
 ul, ol {
   margin: 16px 0 24px 0;
   padding-left: 1em;

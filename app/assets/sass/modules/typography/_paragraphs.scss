@@ -21,7 +21,11 @@ pre.user-input {
 .p--header {
   font-size: 16px;
   line-height: 26px;
-  margin-top: -12px;
+
+  @include media(640px) {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 .p__header--telephone {

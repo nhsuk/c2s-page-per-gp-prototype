@@ -174,14 +174,14 @@ pre.user-input {
 .p__header--telephone {
   margin: 0;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 22px;
   margin-bottom: 4px;
 }
 
 @media (min-width: 500px) {
   .p__header--telephone {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 28px;
   }
 }
 

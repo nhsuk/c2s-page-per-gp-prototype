@@ -1,4 +1,4 @@
-{% extends '_layouts/layout_mvp-v4_1.html' %}
+{% extends '_layouts/layout_mvp-v4_1_header_1.html' %}
 
 {% block page_title %}
   Kenyon Medical Centres
@@ -7,6 +7,14 @@
 {% block pageTitle %}
   Kenyon Medical Centres
 {% endblock pageTitle %}
+
+{% block leftHalf %}
+  {% include '_includes/v1_4/address.html' %}
+{% endblock %}
+
+{% block rightHalf %}
+  {% include '_includes/v1_4/contact.html' %}
+{% endblock %}
 
 <!-- Main content here -->
 {% block content %}

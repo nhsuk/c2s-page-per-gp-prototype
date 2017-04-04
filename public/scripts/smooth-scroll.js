@@ -6,7 +6,7 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 500);
+        }, 1500);
         return false;
       }
     }

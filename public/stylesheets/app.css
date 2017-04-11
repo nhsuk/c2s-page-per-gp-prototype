@@ -691,6 +691,37 @@ hr {
   line-height: 22px;
 }
 
+.button__online-tasks {
+  padding: 8px;
+  width: 100%;
+  float: left;
+  line-height: 22px;
+  text-align: left;
+  background-color: #F0F4F5;
+  color: #002C89;
+  border: none;
+  border-bottom: 2px solid #C0CCDF;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 500px) {
+  .button__online-tasks {
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 16px;
+  }
+}
+
+.button__online-tasks:link, .button__online-tasks:hover, .button__online-tasks:focus, .button__online-tasks:visited {
+  text-decoration: none;
+  color: #fff;
+  background-color: #005BBB;
+}
+
+.button--icon {
+  float: right;
+}
+
 .link-back {
   display: -moz-inline-stack;
   display: inline-block;

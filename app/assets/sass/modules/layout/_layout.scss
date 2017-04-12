@@ -20,6 +20,10 @@ body {
 
 .content {
   padding-top: $leading;
+
+  @include media(large) {
+    padding-top: $leading*2;
+  }
 }
 
 // float a column right instead of left

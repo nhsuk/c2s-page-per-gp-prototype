@@ -311,6 +311,12 @@ body, pre.user-input {
   padding-top: 16px;
 }
 
+@media (min-width: 980px) {
+  .content {
+    padding-top: 32px;
+  }
+}
+
 @media (min-width: 640px) {
   .f-right {
     float: right;

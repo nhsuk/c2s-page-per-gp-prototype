@@ -120,11 +120,6 @@
   border-bottom: 2px solid #C0CCDF;
   margin-bottom: 8px;
 
-  @include media(mid) {
-    width: 75%;
-    display: block;
-  }
-
   @include media(640px) {
     padding: 12px;
     margin-bottom: 16px;
@@ -133,7 +128,7 @@
   }
 
   @include media(large) {
-    margin-bottom: 0 !important;
+    margin-bottom: 40px;
     width: 32.2%;
   }
 

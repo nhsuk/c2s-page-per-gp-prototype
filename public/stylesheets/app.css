@@ -704,13 +704,6 @@ hr {
   margin-bottom: 8px;
 }
 
-@media (min-width: 500px) {
-  .button__online-tasks {
-    width: 75%;
-    display: block;
-  }
-}
-
 @media (min-width: 640px) {
   .button__online-tasks {
     padding: 12px;
@@ -722,7 +715,7 @@ hr {
 
 @media (min-width: 980px) {
   .button__online-tasks {
-    margin-bottom: 0 !important;
+    margin-bottom: 40px;
     width: 32.2%;
   }
 }

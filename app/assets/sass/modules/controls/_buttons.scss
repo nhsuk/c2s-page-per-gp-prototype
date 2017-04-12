@@ -121,9 +121,20 @@
   margin-bottom: 8px;
 
   @include media(mid) {
-    width: 50%;
+    width: 75%;
+    display: block;
+  }
+
+  @include media(640px) {
     padding: 12px;
     margin-bottom: 16px;
+    width: 47.4%;
+    display: inline-block;
+  }
+
+  @include media(large) {
+    margin-bottom: 0 !important;
+    width: 32.2%;
   }
 
   &:link,
@@ -135,8 +146,28 @@
     background-color: #005BBB;
     border-bottom: 2px solid #002089;
   }
+  &:last-of-type {
+    margin-right: 0;
+  }
 }
 
 .button--icon {
   float: right;
+}
+
+.online-tasks {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  max-width: 960px;
+  margin:0 auto;
+
+  @include media(large) {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    max-width: 960px;
+  }
 }

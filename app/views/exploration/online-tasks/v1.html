@@ -1,4 +1,4 @@
-{% extends '_layouts/layout_mvp-v4.html' %}
+{% extends '_layouts/layout_v1.4.4.html' %}
 
 {% block page_title %}
   Kenyon Medical Centres
@@ -16,10 +16,12 @@
   {% include '_includes/v1_4/contact.html' %}
 {% endblock %}
 
+{% block onlineTasks %}
+  {% include '_includes/online-tasks/online-tasks.html' %}
+{% endblock %}
+
 <!-- Main content here -->
 {% block content %}
-  {% include '_includes/online-tasks/online-tasks.html' %}
-  <hr style=""/>
   {% include '_includes/v1_4/reception-opening-times.html' %}
   {% include '_includes/v1_4/gp-appointment.html' %}
   <hr/>

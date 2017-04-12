@@ -728,9 +728,9 @@ hr {
 
 .button__online-tasks:link, .button__online-tasks:hover, .button__online-tasks:focus, .button__online-tasks:visited {
   text-decoration: none;
-  color: #fff;
-  background-color: #005BBB;
-  border-bottom: 2px solid #002089;
+  color: #002C89;
+  background-color: #c0c3c4;
+  border-bottom: 2px solid #9aa3b2;
 }
 
 .button__online-tasks:last-of-type {

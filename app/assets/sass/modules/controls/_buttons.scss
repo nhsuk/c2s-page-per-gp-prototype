@@ -137,9 +137,9 @@
   &:focus,
   &:visited {
     text-decoration: none;
-    color: $pure-white;
-    background-color: #005BBB;
-    border-bottom: 2px solid #002089;
+    color: shade(#002C89, 20%)
+    background-color: shade(#F0F4F5, 20%);
+    border-bottom: 2px solid shade(#C0CCDF, 20%);
   }
   &:last-of-type {
     margin-right: 0;

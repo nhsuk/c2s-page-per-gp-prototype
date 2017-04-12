@@ -735,6 +735,7 @@ hr {
 
 .button__online-tasks:last-of-type {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button--icon {

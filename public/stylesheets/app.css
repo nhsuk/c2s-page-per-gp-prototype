@@ -710,9 +710,14 @@ hr {
   margin-bottom: 8px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 500px) {
   .button__online-tasks {
     padding: 12px;
+  }
+}
+
+@media (min-width: 640px) {
+  .button__online-tasks {
     margin-bottom: 16px;
     width: 47.4%;
     display: inline-block;

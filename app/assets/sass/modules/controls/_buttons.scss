@@ -120,8 +120,11 @@
   border-bottom: 2px solid #C0CCDF;
   margin-bottom: 8px;
 
-  @include media(640px) {
+  @include media(mid) {
     padding: 12px;
+  }
+
+  @include media(640px) {
     margin-bottom: 16px;
     width: 47.4%;
     display: inline-block;

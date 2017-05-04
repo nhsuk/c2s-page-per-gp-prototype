@@ -12,20 +12,28 @@
   <body class="{% block body_css_classes %}{% endblock %}">
     <script>document.body.className = ((document.body.className) ? document.body.className + 'js-enabled' : 'js-enabled');</script>
     {% include '_includes/v1_4/masthead.html' %}
-
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-info.html' %}
-    <hr/>
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-attention.html' %}
-    <hr/>
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-warning.html' %}
-    <hr/>
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-alert.html' %}
-    <hr/>
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-severe.html' %}
-    <hr/>
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-error.html' %}
-    <hr/>
-    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-muted.html' %}
+    <div class="content">
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-info"><h2>Callout info</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-info.html' %}
+      <hr/>
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-attention"><h2>Callout attention</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-attention.html' %}
+      <hr/>
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-warning"><h2>Callout warning</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-warning.html' %}
+      <hr/>
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-alert"><h2>Callout alert</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-alert.html' %}
+      <hr/>
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-severe"><h2>Callout severe</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-severe.html' %}
+      <hr/>
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-error"><h2>Callout error</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-error.html' %}
+      <hr/>
+      <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-muted"><h2>Callout muted</h2></a>
+      {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-muted.html' %}
+    </div>
 
     {% include '_includes/footer.html' %}
     <script src="/scripts/jquery-1.12.4.min.js"></script>

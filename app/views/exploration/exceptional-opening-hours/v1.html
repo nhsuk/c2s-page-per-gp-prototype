@@ -10,27 +10,28 @@
   </head>
 
   <body class="{% block body_css_classes %}{% endblock %}">
-    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    <script>document.body.className = ((document.body.className) ? document.body.className + 'js-enabled' : 'js-enabled');</script>
     {% include '_includes/v1_4/masthead.html' %}
 
-    {% include '_includes/header-exploration/header-v1.html' %}
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-info.html' %}
     <hr/>
-    {% include '_includes/header-exploration/header-v2.html' %}
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-attention.html' %}
     <hr/>
-    {% include '_includes/header-exploration/header-v3.html' %}
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-warning.html' %}
     <hr/>
-    {% include '_includes/header-exploration/header-v4.html' %}
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-alert.html' %}
     <hr/>
-    {% include '_includes/header-exploration/header-v5.html' %}
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-severe.html' %}
     <hr/>
-    {% include '_includes/header-exploration/header-v6.html' %}
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-error.html' %}
+    <hr/>
+    {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-muted.html' %}
 
     {% include '_includes/footer.html' %}
     <script src="/scripts/jquery-1.12.4.min.js"></script>
     <script src="/scripts/selection-buttons.js"></script>
     <!-- additional scripts etc -->
     {% block body_after %}{% endblock %}
-
   </body>
 
 </html>

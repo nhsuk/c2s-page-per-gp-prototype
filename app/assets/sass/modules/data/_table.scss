@@ -1,7 +1,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  border-top: 1px solid $pale-grey;
+  border-top: 1px solid $grey-4;
   margin-bottom: $leading*2;
 
   th, td {
@@ -22,7 +22,7 @@ table {
   }
 
   th {
-    color: $dark-grey;
+    color: $grey-1;
   }
 
   .control {
@@ -59,7 +59,7 @@ table {
 dl {
  dt {
    font-weight:bold;
-   border-top:1px solid $pale-grey;
+   border-top:1px solid $grey-4;
    padding-top: 16px;
    margin-bottom: 4px;
    &:first-child {
@@ -75,7 +75,7 @@ dd {
 }
 
 .dt__day {
-  border-bottom:1px solid $pale-grey;
+  border-bottom:1px solid $grey-4;
   padding-bottom: 16px;
   margin-bottom: 16px;
   font-size: 16px;

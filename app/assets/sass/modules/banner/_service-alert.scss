@@ -1,11 +1,11 @@
 .service-alert {
-  background-color: $service-alert-primary;
-  color: $service-alert-secondary;
+  background-color: $yellow;
+  color: $grey-1;
   font-size: $smallprint;
   line-height: $leading;
 
   a {
-    color: $service-alert-secondary;
+    color: $grey-1;
   }
 }
 
@@ -30,9 +30,9 @@
 }
 
 .service-status {
-  border: 2px solid $service-alert-secondary;
-  background-color: $service-alert-secondary;
-  color: $service-alert-primary;
+  border: 2px solid $grey-1;
+  background-color: $grey-1;
+  color: $yellow;
   padding: 5px 10px;
   margin: 0 10px 0 0;
   font-weight: $lightweight;

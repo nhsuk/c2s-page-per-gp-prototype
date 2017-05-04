@@ -1,0 +1,39 @@
+{% extends '_layouts/layout_v1.4.4.html' %}
+
+{% block page_title %}
+  Kenyon Medical Centres
+{% endblock page_title %}
+
+{% block pageTitle %}
+  Kenyon Medical Centres
+{% endblock pageTitle %}
+
+{% block leftHalf %}
+  {% include '_includes/v1_4_2/address.html' %}
+{% endblock %}
+
+{% block rightHalf %}
+  {% include '_includes/v1_4_2/contact.html' %}
+{% endblock %}
+
+{% block onlineTasks %}
+  {% include '_includes/v1_4_2/online-tasks.html' %}
+{% endblock %}
+
+<!-- Main content here -->
+{% block content %}
+
+  {% include '_includes/v1_4_2/reception-opening-times.html' %}
+  {% include '_includes/v1_4_2/gp-appointment.html' %}
+  <hr/>
+  {% include '_includes/v1_4_2/what-patients-say-about-this-surgery.html' %}
+  <hr/>
+  {% include '_includes/v1_4_2/healthcare-staff-at-this-surgery.html' %}
+  <hr/>
+  {% include '_includes/v1_4_2/specialised-services.html' %}
+  <hr/>
+  {% include '_includes/v1_4_2/facilities.html' %}
+  <hr/>
+  {% include '_includes/v1_4_2/register-as-patient.html' %}
+  <hr/>
+{% endblock content %}

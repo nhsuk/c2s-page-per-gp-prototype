@@ -17,6 +17,23 @@
   border-left: solid #40ADD7 !important;
 }
 
+.callout--error {
+  border: $baseline-grid-unit solid $red;
+}
+
+.callout--muted {
+  background-color: $grey-4;
+}
+
+.callout--severe {
+  background-color: $red;
+  color: $white;
+
+  a {
+    color:$link-visited-reverse-polarity;
+  }
+}
+
 .callout--white {
   color: white;
   border-left: solid white;

@@ -1,4 +1,4 @@
-@import url("//fast.fonts.net/cssapi/4c65968f-c33e-4eb6-9a5d-ab4f81a0543f.css");
+@import url("https://fast.fonts.net/cssapi/0985eb4d-eec4-488b-baa4-22fe85c5ce32.css");
 .grid-row, .service-alert-inner, .notification-banner-inner, .breadcrumb, .footer-container, .-date, .error-summary, form, .form-group, #global-header, .signage {
   zoom: 1;
 }
@@ -34,7 +34,7 @@ we can add other blues, named like blue40 (for a lighter blue) or blue60 for a d
 16px
 */
 body, pre.user-input {
-  font-family: "FS Me", sans-serif;
+  font-family: "Frutiger W01", "Frutiger", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;

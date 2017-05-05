@@ -1,39 +1,37 @@
-{% extends '_layouts/layout_v1.4.4.html' %}
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% block page_title %}
-  Kenyon Medical Centres
-{% endblock page_title %}
+      <title>{% block page_title %}{% endblock %}</title>
+      <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+      {% block html_head %}{% endblock %}
+    </head>
 
-{% block pageTitle %}
-  Kenyon Medical Centres
-{% endblock pageTitle %}
+    <body class="{% block body_css_classes %}{% endblock %}">
+      <script>document.body.className = ((document.body.className) ? document.body.className + 'js-enabled' : 'js-enabled');</script>
+      {% include '_includes/v1_4/masthead.html' %}
+      <div class="content">
+        <div class="grid-row">
+          <div class="grid-2-3">
+            <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-table-v1"><h3>Table v1</h3></a>
+            <p>Message is displayed as a table row above dates. If the message is displayed before the week of the closure, now table rows are highlighted.</p>
+            {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-table-v1.html' %}
+            <hr/>
+            <a href="/exploration/exceptional-opening-hours/page-examples/exceptional-opening-hours-table-v2"><h3>Table v2</h3></a>
+            <p>If the user views the page on the same week of the closure, it should highlight the day in which it is closed.</p>
+            {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-table-v2.html' %}
+            <hr/>
+          </div>
+        </div>
+      </div>
+    </body>
+    
+    {% include '_includes/footer.html' %}
+    <script src="/scripts/jquery-1.12.4.min.js"></script>
+    <script src="/scripts/selection-buttons.js"></script>
+    <!-- additional scripts etc -->
+    {% block body_after %}{% endblock %}
 
-{% block leftHalf %}
-  {% include '_includes/v1_4_2/address.html' %}
-{% endblock %}
-
-{% block rightHalf %}
-  {% include '_includes/v1_4_2/contact.html' %}
-{% endblock %}
-
-{% block onlineTasks %}
-  {% include '_includes/v1_4_2/online-tasks.html' %}
-{% endblock %}
-
-<!-- Main content here -->
-{% block content %}
-
-  {% include '_includes/v1_4_2/reception-opening-times.html' %}
-  {% include '_includes/v1_4_2/gp-appointment.html' %}
-  <hr/>
-  {% include '_includes/v1_4_2/what-patients-say-about-this-surgery.html' %}
-  <hr/>
-  {% include '_includes/v1_4_2/healthcare-staff-at-this-surgery.html' %}
-  <hr/>
-  {% include '_includes/v1_4_2/specialised-services.html' %}
-  <hr/>
-  {% include '_includes/v1_4_2/facilities.html' %}
-  <hr/>
-  {% include '_includes/v1_4_2/register-as-patient.html' %}
-  <hr/>
-{% endblock content %}
+  </html>

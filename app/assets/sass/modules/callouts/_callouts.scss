@@ -187,3 +187,17 @@
     margin: 0;
   }
 }
+
+.callout--left {
+  display: inline-block;
+  min-width: 140px;
+
+  @include media(mid) {
+    min-width: 170px;
+  }
+}
+
+.callout--right {
+  display: inline-block;
+  min-width: 20%;
+}

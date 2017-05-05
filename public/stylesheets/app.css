@@ -864,8 +864,9 @@ dd {
 
 .dt__day {
   border-bottom: 1px solid #d8dde0;
+  padding-left: 8px;
   padding-bottom: 16px;
-  margin-bottom: 16px;
+  padding-top: 16px;
   font-size: 16px;
   line-height: 22px;
 }

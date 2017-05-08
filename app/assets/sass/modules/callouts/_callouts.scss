@@ -6,6 +6,8 @@
 
 .callout {
   padding: 12px;
+  margin-top:16px;
+  margin-bottom:16px;
 
   @include media(mid) {
     padding: $leading;

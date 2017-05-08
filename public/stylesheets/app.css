@@ -1479,6 +1479,8 @@ iframe {
 
 .callout {
   padding: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 500px) {

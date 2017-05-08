@@ -1481,6 +1481,8 @@ iframe {
   padding: 12px;
   margin-top: 16px;
   margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 @media (min-width: 500px) {

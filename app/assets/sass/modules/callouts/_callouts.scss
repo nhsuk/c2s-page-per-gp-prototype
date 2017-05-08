@@ -8,8 +8,6 @@
   padding: 12px;
   margin-top:16px;
   margin-bottom:16px;
-  font-size: 16px;
-  line-height: 22px;
 
   @include media(mid) {
     padding: $leading;
@@ -102,6 +100,8 @@
   background-color: #FFF8E7;
   border-top: 4px solid #FCD775;
   border-bottom: 4px solid #FCD775;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .callout--alert {

@@ -1,0 +1,24 @@
+{
+  "name": "c2s-page-per-gp-prototype",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "PASSWORD": {
+      "required": true
+    },
+    "USERNAME": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

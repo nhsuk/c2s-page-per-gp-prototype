@@ -1,7 +1,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  border-top: 0;
+  border-top: 1px solid $grey-4;
   margin-bottom: $leading*2;
 
   th, td {
@@ -23,12 +23,6 @@ table {
 
   th {
     color: $grey-1;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 32px;
-    text-transform: none;
-    text-align: left;
-    border-top: 0;
   }
 
   .control {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block page_title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+    {% block html_head %}{% endblock %}
+  </head>
+
+  <body class="{% block body_css_classes %}{% endblock %}">
+    <script>document.body.className = ((document.body.className) ? document.body.className + 'js-enabled' : 'js-enabled');</script>
+    {% include '_includes/masthead.html' %}
+    <div class="content">
+      <div class="grid-row">
+        <div class="grid-2-3">
+          <h1>Refined designs + edge cases</h1>
+          <h4>Single input</h4>
+          {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-warning-v8.html' %}
+          <hr />
+          <h4>Maximum of three inputs</h4>
+          {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-warning-v11.html' %}
+          <hr />
+          <h4>No specific data availble</h4>
+          {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-warning-v12.html' %}
+        </div>
+      </div>
+    </div>
+
+    {% include '_includes/footer.html' %}
+    <script src="/scripts/jquery-1.12.4.min.js"></script>
+    <script src="/scripts/selection-buttons.js"></script>
+    <!-- additional scripts etc -->
+    {% block body_after %}{% endblock %}
+  </body>
+
+</html>

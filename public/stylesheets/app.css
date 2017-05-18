@@ -142,7 +142,12 @@ pre.user-input {
 
 .p--header {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 24px;
+  margin: 4px 0;
+}
+
+.p--header:first-of-type {
+  margin-top: 0;
 }
 
 @media (min-width: 640px) {
@@ -152,8 +157,22 @@ pre.user-input {
   }
 }
 
+.h1--surgery {
+  margin-bottom: 8px;
+}
+
 .p__header--address {
-  margin-top: -12px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .p__header--address {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
 }
 
 .p__header--telephone {
@@ -377,6 +396,16 @@ hr {
 @media (min-width: 640px) {
   .display--desktop {
     display: block;
+  }
+}
+
+.address {
+  padding-top: 16px;
+}
+
+@media (min-width: 640px) {
+  .address {
+    padding-top: 0;
   }
 }
 
@@ -1357,7 +1386,13 @@ textarea:focus {
   width: 130px;
   height: 4px;
   background-color: #337ec6;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .header-panel--v2 .content-seperator {
+    margin-bottom: 24px;
+  }
 }
 
 .header-panel--v2 .precis {
@@ -1389,12 +1424,6 @@ textarea:focus {
     font-size: 20px;
     line-height: 24px;
   }
-}
-
-.p--header-panel {
-  margin: 8px 0 0 0;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .signage {
@@ -1462,16 +1491,6 @@ iframe {
 @media (min-width: 640px) {
   .online-services-mobile {
     display: none;
-  }
-}
-
-.contact-details {
-  margin-top: 32px !important;
-}
-
-@media (min-width: 640px) {
-  .contact-details {
-    margin-top: 0 !important;
   }
 }
 

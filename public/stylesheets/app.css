@@ -399,12 +399,12 @@ hr {
   }
 }
 
-.address {
+.surgery-links {
   padding-top: 16px;
 }
 
 @media (min-width: 640px) {
-  .address {
+  .surgery-links {
     padding-top: 0;
   }
 }

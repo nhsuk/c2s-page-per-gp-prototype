@@ -360,6 +360,26 @@ hr {
   padding-top: 32px;
 }
 
+.display--mobile {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .display--mobile {
+    display: none;
+  }
+}
+
+.display--desktop {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .display--desktop {
+    display: block;
+  }
+}
+
 .grid-row {
   display: block;
   margin-left: -1.7%;

@@ -1,5 +1,9 @@
 details {
-  margin: 24px 0;
+  margin: 16px 0;
+
+  @include media(640px) {
+    margin: 24px 0;
+  }
 
   summary {
     text-decoration: underline;

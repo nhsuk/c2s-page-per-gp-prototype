@@ -399,16 +399,6 @@ hr {
   }
 }
 
-.surgery-links {
-  padding-top: 12px;
-}
-
-@media (min-width: 640px) {
-  .surgery-links {
-    padding-top: 0;
-  }
-}
-
 .grid-row {
   display: block;
   margin-left: -1.7%;
@@ -951,7 +941,13 @@ dd {
 }
 
 details {
-  margin: 24px 0;
+  margin: 16px 0;
+}
+
+@media (min-width: 640px) {
+  details {
+    margin: 24px 0;
+  }
 }
 
 details summary {

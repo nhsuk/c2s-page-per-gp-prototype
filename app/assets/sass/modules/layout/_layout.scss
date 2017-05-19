@@ -97,11 +97,3 @@ hr {
     display: block;
   }
 }
-
-.surgery-links {
-  padding-top: 12px;
-
-  @include media(640px) {
-    padding-top: 0;
-  }
-}

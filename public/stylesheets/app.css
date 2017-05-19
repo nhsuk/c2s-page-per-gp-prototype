@@ -942,11 +942,15 @@ dd {
 
 details {
   margin: 16px 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 @media (min-width: 640px) {
   details {
     margin: 24px 0;
+    font-size: 20px;
+    line-height: 32px;
   }
 }
 

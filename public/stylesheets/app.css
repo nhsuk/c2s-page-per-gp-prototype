@@ -150,13 +150,6 @@ pre.user-input {
   margin-top: 0;
 }
 
-@media (min-width: 640px) {
-  .p--header {
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-
 .h1--surgery {
   margin-bottom: 8px;
 }
@@ -169,8 +162,6 @@ pre.user-input {
 
 @media (min-width: 640px) {
   .p__header--address {
-    font-size: 18px;
-    line-height: 28px;
     margin-bottom: 24px;
   }
 }

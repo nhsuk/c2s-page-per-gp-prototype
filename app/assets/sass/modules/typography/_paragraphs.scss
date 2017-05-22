@@ -26,11 +26,6 @@ pre.user-input {
   &:first-of-type {
     margin-top: 0;
   }
-
-  @include media(640px) {
-    font-size: 18px;
-    line-height: 28px;
-  }
 }
 
 .h1--surgery {
@@ -43,8 +38,6 @@ pre.user-input {
   margin-bottom: 16px;
 
   @include media(640px) {
-    font-size: 18px;
-    line-height: 28px;
     margin-bottom: 24px;
   }
 }

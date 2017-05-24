@@ -1,29 +1,45 @@
-{% extends '_layouts/layout_2-3.html' %}
+{% extends '_layouts/layout_v1.4.4.html' %}
 
-{% block page_title %}Exceptional opening hours{{serviceName}}{% endblock %}
+{% block page_title %}
+  Kenyon Medical Centres
+{% endblock page_title %}
 
-{% block pageTitle %}Exceptional opening hours{% endblock %}
+{% block pageTitle %}
+  Kenyon Medical Centres
+{% endblock pageTitle %}
 
-{% block pageIntro %}Prototype to explore exceptional opening hours.{% endblock%}
-
-{% block content %}
-
-  <div class="first-item">
-    <a href="/exploration/exceptional-opening-hours/v1"><h3>Exceptional opening hours v1</h3></a>
-    <p>Exploring callout styles.</p>
-    <a href="/exploration/exceptional-opening-hours/v1_1"><h3>Exceptional opening hours v1.1</h3></a>
-    <p>Exploring layout and position of warning callout style.</p>
-    <a href="/exploration/exceptional-opening-hours/v1_2"><h3>Exceptional opening hours v1.2</h3></a>
-    <p>Exploring edge case scenarios</p>
-    <a href="/exploration/exceptional-opening-hours/v1_3"><h3>Exceptional opening hours v1.3</h3></a>
-    <p>Refined edge cases and design</p>
-    <hr />
-    <a href="/exploration/exceptional-opening-hours/v2"><h3>Exceptional opening hours v2</h3></a>
-    <p>Exploring inline table styles.</p>
-    <hr />
-    <a href="/exploration/exceptional-opening-hours/test"><h3>Exceptional opening hours - test</h3></a>
-    <p>Design variants to test.</p>
-  </div>
+{% block surgeryAddress %}
+  108 Brandon Road, Coventry, CV3 2JF
 {% endblock %}
 
-{% block footer %}{% endblock %}
+{% block surgeryDirections %}
+  See map and get directions
+{% endblock %}
+
+{% block contactInformation %}
+  {% include '_includes/contact-v2.html' %}
+{% endblock %}
+
+{% block onlineTasks %}
+  {% include '_includes/online-tasks.html' %}
+{% endblock %}
+
+<!-- Main content here -->
+{% block content %}
+
+  <h2>Reception opening times</h2>
+  {% include '_includes/exceptional-opening-hours/exceptional-opening-hours-edge-cases.html' %}
+  {% include '_includes/exceptional-opening-hours/reception-opening-times.html' %}
+  {% include '_includes/gp-appointment.html' %}
+  <hr/>
+  {% include '_includes/what-patients-say-about-this-surgery.html' %}
+  <hr/>
+  {% include '_includes/healthcare-staff-at-this-surgery.html' %}
+  <hr/>
+  {% include '_includes/specialised-services.html' %}
+  <hr/>
+  {% include '_includes/facilities.html' %}
+  <hr/>
+  {% include '_includes/register-as-patient.html' %}
+  <hr/>
+{% endblock content %}

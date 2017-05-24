@@ -13,12 +13,19 @@ table {
     font-size: $smallprint;
     line-height: 18px;
 
-    border-bottom: 1px solid #eee;
-
     @include media(640px) {
       font-size: $body--mobile;
       line-height: 22px;
     }
+  }
+
+  tr {
+    border-bottom: 1px solid #eee;
+
+    &:last-of-type {
+      border-bottom: 0
+    }
+
   }
 
   th {

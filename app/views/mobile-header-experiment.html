@@ -1,4 +1,4 @@
-{% extends '_layouts/layout_v1.4.4.html' %}
+{% extends '_layouts/layout_mobile-header-experiment.html' %}
 
 {% block page_title %}
   Kenyon Medical Centres
@@ -8,20 +8,12 @@
   Kenyon Medical Centres
 {% endblock pageTitle %}
 
-{% block surgeryAddress %}
-  108 Brandon Road, Coventry, CV3 2JF
-{% endblock %}
-
-{% block surgeryDirections %}
-  See map and get directions
-{% endblock %}
-
 {% block contactInformation %}
   {% include '_includes/contact-v2.html' %}
 {% endblock %}
 
 {% block onlineTasks %}
-  {% include '_includes/online-tasks.html' %}
+  {% include '_includes/online-tasks-v2.html' %}
 {% endblock %}
 
 <!-- Main content here -->

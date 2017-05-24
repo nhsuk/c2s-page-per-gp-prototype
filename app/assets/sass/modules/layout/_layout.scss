@@ -81,3 +81,19 @@ hr {
 .section {
   padding-top: $leading*2;
 }
+
+.display--mobile {
+  display: block;
+
+  @include media(640px) {
+    display: none;
+  }
+}
+
+.display--desktop {
+  display: none;
+
+  @include media(640px) {
+    display: block;
+  }
+}

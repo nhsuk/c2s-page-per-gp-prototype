@@ -154,32 +154,6 @@ pre.user-input {
   margin-bottom: 8px;
 }
 
-.p__header--address {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 16px;
-}
-
-@media (min-width: 640px) {
-  .p__header--address {
-    margin-bottom: 24px;
-  }
-}
-
-.p__header--telephone {
-  margin: 0;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 4px;
-}
-
-@media (min-width: 500px) {
-  .p__header--telephone {
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
 ul, ol {
   margin: 16px 0 24px 0;
   padding-left: 1em;
@@ -1423,12 +1397,12 @@ textarea:focus {
   width: 130px;
   height: 4px;
   background-color: #337ec6;
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
 @media (min-width: 640px) {
   .header-panel--v2 .content-seperator {
-    margin-bottom: 24px;
+    margin: 24px 0;
   }
 }
 

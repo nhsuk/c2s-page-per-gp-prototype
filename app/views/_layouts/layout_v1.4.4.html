@@ -21,8 +21,8 @@
               <h1 class="h1--surgery">
                 {% block pageTitle %}{% endblock %}
               </h1>
-              <div class="p--header">108 Brandon Road, Coventry, CV3 2JF</div>
-              <div class="p--header p__header--address"><a href="#">See map and get directions</a> </div>
+              <div class="p--header">{% block surgeryAddress %}{% endblock %}</div>
+              <div class="p--header"><a href="#">{% block surgeryDirections %}{% endblock %}</a></div>
               <div class="content-seperator"></div>
               {% block contactInformation %}{% endblock contactInformation %}
             </div>

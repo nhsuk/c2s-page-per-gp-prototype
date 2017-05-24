@@ -1,3 +1,15 @@
+<!-- V1 -->
+<h3>One column of opening times</h3>
+<div class="callout callout--warning">
+  <p style="margin-top:0;"><b>Changes to opening times</b></p>
+  <div class="">
+    <p>Friday 26th May: 8am to 12pm</p>
+    <p>Monday 29th May: Closed</p>
+  </div>
+</div>
+
+<!-- V2 -->
+<h3>Two columns of opening times</h3>
 <div class="callout callout--warning">
   <p style="margin-top:0; padding-left:8px;"><b>Changes to opening times</b></p>
   <div class="appointments__desktop">
@@ -5,6 +17,7 @@
       <tr>
         <td>Friday 26th May</td>
         <td>8am to 12pm</td>
+        <td>2pm to 4pm</td>
       </tr>
       <tr>
         <td style="border-bottom:0;">Monday 29th May</td>
@@ -16,11 +29,46 @@
   <dl class='appointments__mobile appointments__mobile--callout'>
     <div class="dt__day--callout">
       <dt>Friday 26th May</dt>
-      <td>8am to 12pm</td>
+      <dd>8am to 12pm</dd>
+      <dd>1pm to 3pm</dd>
     </div>
     <div class="dt__day--callout">
-      <dt>Monday 29th May</dt>
-      <td>Closed</td>
+      <dt>Monday</dt>
+      <dd>Closed</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- V3 -->
+
+<h3>Three columns of opening times</h3>
+<div class="callout callout--warning">
+  <p style="margin-top:0; padding-left:8px;"><b>Changes to opening times</b></p>
+  <div class="appointments__desktop">
+    <table style="border-top:0; margin-bottom:0;">
+      <tr>
+        <td>Friday 26th May</td>
+        <td>8am to 12pm</td>
+        <td>1pm to 3pm</td>
+        <td>4pm to 6:30pm</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:0;">Monday 29th May</td>
+        <td style="border-bottom:0;">Closed</td>
+      </tr>
+    </table>
+  </div>
+
+  <dl class='appointments__mobile appointments__mobile--callout'>
+    <div class="dt__day--callout">
+      <dt>Friday 26th May</dt>
+      <dd>8am to 12pm</dd>
+      <dd>1pm to 3pm</dd>
+      <dd>4pm to 6:30pm</dd>
+    </div>
+    <div class="dt__day--callout">
+      <dt>Monday</dt>
+      <dd>Closed</dd>
     </div>
   </dl>
 </div>

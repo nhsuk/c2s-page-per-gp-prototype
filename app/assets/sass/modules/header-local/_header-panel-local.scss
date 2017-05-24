@@ -65,10 +65,10 @@
     width: 130px;
     height: $leading/4;
     background-color: tint($nhs-blue, 20%);
-    margin-bottom: 16px;
+    margin: 16px 0;
 
     @include media(640px) {
-      margin-bottom: 24px;
+      margin: 24px 0;
     }
   }
 

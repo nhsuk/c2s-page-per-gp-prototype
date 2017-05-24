@@ -20,26 +20,14 @@ pre.user-input {
 
 .p--header {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 24px;
+  margin: 4px 0;
 
-  @include media(640px) {
-    font-size: 18px;
-    line-height: 28px;
+  &:first-of-type {
+    margin-top: 0;
   }
 }
 
-.p__header--address {
-  margin-top: -12px;
-}
-
-.p__header--telephone {
-  margin:0;
-  font-size:18px;
-  line-height:22px;
-  margin-bottom:4px;
-
-  @include media(mid) {
-    font-size: 24px;
-    line-height: 28px;
-  }
+.h1--surgery {
+  margin-bottom: 8px;
 }

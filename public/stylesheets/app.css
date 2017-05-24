@@ -142,32 +142,16 @@ pre.user-input {
 
 .p--header {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 24px;
+  margin: 4px 0;
 }
 
-@media (min-width: 640px) {
-  .p--header {
-    font-size: 18px;
-    line-height: 28px;
-  }
+.p--header:first-of-type {
+  margin-top: 0;
 }
 
-.p__header--address {
-  margin-top: -12px;
-}
-
-.p__header--telephone {
-  margin: 0;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 4px;
-}
-
-@media (min-width: 500px) {
-  .p__header--telephone {
-    font-size: 24px;
-    line-height: 28px;
-  }
+.h1--surgery {
+  margin-bottom: 8px;
 }
 
 ul, ol {
@@ -358,6 +342,26 @@ hr {
 
 .section {
   padding-top: 32px;
+}
+
+.display--mobile {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .display--mobile {
+    display: none;
+  }
+}
+
+.display--desktop {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .display--desktop {
+    display: block;
+  }
 }
 
 .grid-row {
@@ -682,7 +686,7 @@ hr {
   line-height: 22px;
 }
 
-.button__online-tasks {
+.button__online-tasks-1-2 {
   padding: 8px;
   width: 100%;
   float: left;
@@ -696,13 +700,13 @@ hr {
 }
 
 @media (min-width: 500px) {
-  .button__online-tasks {
+  .button__online-tasks-1-2 {
     padding: 12px;
   }
 }
 
 @media (min-width: 640px) {
-  .button__online-tasks {
+  .button__online-tasks-1-2 {
     margin-bottom: 16px;
     width: 47.4%;
     display: inline-block;
@@ -710,20 +714,66 @@ hr {
 }
 
 @media (min-width: 980px) {
-  .button__online-tasks {
-    margin-bottom: 0 !important;
-    width: 32.2%;
+  .button__online-tasks-1-2 {
+    margin-bottom: 16px !important;
+    width: 48%;
   }
 }
 
-.button__online-tasks:link, .button__online-tasks:hover, .button__online-tasks:focus, .button__online-tasks:visited {
+.button__online-tasks-1-2:link, .button__online-tasks-1-2:hover, .button__online-tasks-1-2:focus, .button__online-tasks-1-2:visited {
   text-decoration: none;
   color: #00236e;
   background-color: #c0c3c4;
   border-bottom: 2px solid #9aa3b2;
 }
 
-.button__online-tasks:last-of-type {
+.button__online-tasks-1-2:last-of-type {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.button__online-tasks-1-3 {
+  padding: 8px;
+  width: 100%;
+  float: left;
+  line-height: 22px;
+  text-align: left;
+  background-color: #F0F4F5;
+  color: #002C89;
+  border: none;
+  border-bottom: 2px solid #C0CCDF;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 500px) {
+  .button__online-tasks-1-3 {
+    padding: 12px;
+  }
+}
+
+@media (min-width: 640px) {
+  .button__online-tasks-1-3 {
+    margin-bottom: 16px;
+    width: 47.4%;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 980px) {
+  .button__online-tasks-1-3 {
+    margin-bottom: 16px !important;
+    width: 31%;
+  }
+}
+
+.button__online-tasks-1-3:link, .button__online-tasks-1-3:hover, .button__online-tasks-1-3:focus, .button__online-tasks-1-3:visited {
+  text-decoration: none;
+  color: #00236e;
+  background-color: #c0c3c4;
+  border-bottom: 2px solid #9aa3b2;
+}
+
+.button__online-tasks-1-3:last-of-type {
   margin-right: 0;
   margin-bottom: 0;
 }
@@ -920,7 +970,17 @@ dd {
 }
 
 details {
-  margin: 24px 0;
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (min-width: 640px) {
+  details {
+    margin: 24px 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 details summary {
@@ -1264,8 +1324,8 @@ textarea:focus {
 
 #global-header {
   border-bottom: 3px solid #005eb8;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header-logo {
@@ -1355,7 +1415,13 @@ textarea:focus {
   width: 130px;
   height: 4px;
   background-color: #337ec6;
-  margin-bottom: 24px;
+  margin: 16px 0;
+}
+
+@media (min-width: 640px) {
+  .header-panel--v2 .content-seperator {
+    margin: 24px 0;
+  }
 }
 
 .header-panel--v2 .precis {
@@ -1387,12 +1453,6 @@ textarea:focus {
     font-size: 20px;
     line-height: 24px;
   }
-}
-
-.p--header-panel {
-  margin: 8px 0 0 0;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .signage {
@@ -1460,16 +1520,6 @@ iframe {
 @media (min-width: 640px) {
   .online-services-mobile {
     display: none;
-  }
-}
-
-.contact-details {
-  margin-top: 32px !important;
-}
-
-@media (min-width: 640px) {
-  .contact-details {
-    margin-top: 0 !important;
   }
 }
 

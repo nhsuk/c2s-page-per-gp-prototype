@@ -1,3 +1,7 @@
+# DEPRECATED - no longer actively maintained
+
+---
+
 # Page per GP prototypes
 Design prototypes for one page per GP feature.
 
